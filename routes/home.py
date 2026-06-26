@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify
 
-from backend.moviebox import get_home
+from backend.moviebox import moviebox
 
 home_bp = Blueprint(
     "home",
@@ -12,5 +12,5 @@ home_bp = Blueprint(
 def home():
 
     return jsonify(
-        get_home()
+        moviebox.home()
     )
