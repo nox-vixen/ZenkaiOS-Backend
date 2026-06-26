@@ -1,5 +1,10 @@
 from flask import Blueprint, jsonify, request
-from backend.moviebox_service import moviebox
+
+import asyncio
+
+from moviebox_api.v1 import Search
+from moviebox_api.v1 import Session
+from moviebox_api.v1 import SubjectType
 
 search_bp = Blueprint("search", __name__)
 
@@ -7,25 +12,37 @@ search_bp = Blueprint("search", __name__)
 @search_bp.route("/api/search")
 def search():
 
-    keyword = request.args.get("q", "")
+    keyword = request.args.get("q", "").strip()
 
     if not keyword:
         return jsonify([])
 
-    results = moviebox.search(keyword)
+    async def run():
 
-    anime = []
+        session = Session()
 
-    for item in results.items:
+        search = Search(
+            session=session,
+            query=keyword,
+            subject_type=SubjectType.MOVIES
+        )
 
-        anime.append({
-            "id": item.subjectId,
-            "title": item.title,
-            "description": item.description,
-            "year": str(item.releaseDate),
-            "duration": item.duration,
-            "genres": item.genre,
-            "image": str(item.cover.url)
-        })
+        results = await search.get_content_model()
 
-    return jsonify(anime)
+        output = []
+
+        for item in results.items:
+
+            output.append({
+                "id": item.subjectId,
+                "title": item.title,
+                "image": str(item.cover.url),
+                "description": item.description,
+                "year": str(item.releaseDate),
+                "duration": item.duration,
+                "genres": item.genre
+            })
+
+        return output
+
+    return jsonify(asyncio.run(run()))
