@@ -55,17 +55,18 @@ async def moviebox_get(path):
         "Accept": "application/json",
         "Content-Type": "application/json",
         "X-Client-Token": x_client_token(),
-        "x-tr-signature": sign(
-            "GET",
-            url
-        )
+        "x-tr-signature": sign("GET", url)
     }
 
     async with httpx.AsyncClient() as client:
-        r = await client.get(
-            url,
-            headers=headers
-        )
+        r = await client.get(url, headers=headers)
+
+        print("==========")
+        print("URL:", url)
+        print("STATUS:", r.status_code)
+        print("BODY:")
+        print(r.text)
+        print("==========")
 
         return {
             "url": str(r.url),
