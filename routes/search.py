@@ -1,22 +1,14 @@
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify
 
 from backend.moviebox import moviebox
 
-search_bp = Blueprint(
-    "search",
-    __name__
-)
+search_bp = Blueprint("search", __name__)
 
 
-@search_bp.route("/api/search")
-def search():
-
-    keyword = request.args.get("q", "")
-
-    if not keyword:
-
-        return jsonify([])
-
+@search_bp.route("/api/test")
+def test():
     return jsonify(
-        moviebox.search(keyword)
+        moviebox.test(
+            "/wefeed-h5api-bff/search?keyword=one%20piece"
+        )
     )
