@@ -27,9 +27,10 @@ def home():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
 
-@app.route("/debug/packages")
-def debug_packages():
+@app.route("/debug/v1")
+def debug_v1():
+    from moviebox_api import v1
+
     return {
-        "moviebox_api": moviebox_api.__version__,
-        "pydantic": pydantic.__version__
+        "members": dir(v1)
     }
