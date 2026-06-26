@@ -1,36 +1,14 @@
+from moviebox_client import moviebox_get
 import asyncio
-
-from moviebox_api.v1 import (
-    Search,
-    Session,
-    SubjectType,
-)
+import json
 
 
-def search(title):
-    try:
+def get_home():
 
-        async def run():
+    raw = asyncio.run(
+        moviebox_get(
+            "/wefeed-h5api-bff/home?host=moviebox.ph"
+        )
+    )
 
-            session = Session()
-
-            search = Search(
-                session=session,
-                query=title,
-                subject_type=SubjectType.TV_SERIES,
-            )
-
-            results = await search.get_content_model()
-
-            if not results.items:
-                return None
-
-            return results.items[0]
-
-        return asyncio.run(run())
-
-    except Exception as e:
-
-        print("MOVIEBOX ERROR:", e)
-
-        return None
+    return json.loads(raw["text"])

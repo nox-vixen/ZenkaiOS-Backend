@@ -1,10 +1,16 @@
 from flask import Blueprint, jsonify
 
-anime_bp = Blueprint("anime", __name__)
+from backend.moviebox import get_home
+
+anime_bp = Blueprint(
+    "anime",
+    __name__
+)
+
 
 @anime_bp.route("/api/anime")
 def anime():
 
-    return jsonify({
-        "message": "Anime route working"
-    })
+    data = get_home()
+
+    return jsonify(data)
