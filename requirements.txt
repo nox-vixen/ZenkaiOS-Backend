@@ -1,4 +1,10 @@
-flask
-flask-cors
+Flask
+Flask-Cors
 gunicorn
+requests
 httpx
+moviebox-api
+beautifulsoup4
+click
+rich
+throttlebuster
