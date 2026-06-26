@@ -21,6 +21,15 @@ class MovieBox:
             )
 
         )
+     
+    def search(self, keyword):
 
+    return asyncio.run(
+
+        self._request(
+            f"/search?keyword={keyword}"
+        )
+
+    )
 
 moviebox = MovieBox()
