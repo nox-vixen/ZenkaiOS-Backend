@@ -670,11 +670,6 @@ src="/static/logo-icon.png">
 <div class="featured-glow">
     <section class="featured">
         <div class="carousel-track" id="featuredTrack">
-            <div class="carousel-item"><img src="https://cdn.myanimelist.net/images/anime/1764/126627.jpg"><div class="overlay"><h2>SOLO<br>LEVELING</h2><p>Description 1...</p><div class="buttons"><button class="watch"><i class="fa-solid fa-play"></i> WATCH NOW</button><button class="list"><i class="fa-solid fa-plus"></i> MY LIST</button></div></div></div>
-            <div class="carousel-item"><img src="https://cdn.myanimelist.net/images/anime/1764/126627.jpg"><div class="overlay"><h2>JUJUTSU<br>KAISEN</h2><p>Description 2...</p><div class="buttons"><button class="watch"><i class="fa-solid fa-play"></i> WATCH NOW</button><button class="list"><i class="fa-solid fa-plus"></i> MY LIST</button></div></div></div>
-            <div class="carousel-item"><img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg"><div class="overlay"><h2>DEMON<br>SLAYER</h2><p>Description 3...</p><div class="buttons"><button class="watch"><i class="fa-solid fa-play"></i> WATCH NOW</button><button class="list"><i class="fa-solid fa-plus"></i> MY LIST</button></div></div></div>
-            <div class="carousel-item"><img src="https://cdn.myanimelist.net/images/anime/1806/126216.jpg"><div class="overlay"><h2>CHAINSAW<br>MAN</h2><p>Description 4...</p><div class="buttons"><button class="watch"><i class="fa-solid fa-play"></i> WATCH NOW</button><button class="list"><i class="fa-solid fa-plus"></i> MY LIST</button></div></div></div>
-            <div class="carousel-item"><img src="https://cdn.myanimelist.net/images/anime/1171/109222.jpg"><div class="overlay"><h2>BLEACH</h2><p>Description 5...</p><div class="buttons"><button class="watch"><i class="fa-solid fa-play"></i> WATCH NOW</button><button class="list"><i class="fa-solid fa-plus"></i> MY LIST</button></div></div></div>
         </div>
         <div class="dots" id="carouselDots">
             <span class="active"></span><span></span><span></span><span></span><span></span>
@@ -764,7 +759,7 @@ return `
 
 <div class="poster">
 
-<img src="${image}">
+<img src="/img?url=${encodeURIComponent(image)}">
 
 <div class="rank">
 #${rank}
@@ -797,36 +792,132 @@ return `
 
 }
 
-sections.forEach(section => {
-    // 1. Generate 10 cards dynamically
-    let cardsHTML = '';
-    for (let i = 1; i <= 10; i++) {
-        cardsHTML += createCard(
-            i, 
-            "Solo Leveling", 
-            "https://cdn.myanimelist.net/images/anime/1171/109222.jpg", 
-            "4.9"
-        );
-    }
+async function loadHome() {
 
-    // 2. Insert the section with 10 cards + the view card
-    content.insertAdjacentHTML("beforeend", `
+    try {
+
+        console.log("Loading anime...");
+
+        const response =
+            await fetch("/api/anime");
+
+        console.log("Response:", response);
+
+        const animeList =
+            await response.json();
+
+        console.log("Anime:", animeList);
+
+        const first10 =
+            animeList.slice(0,10);
+
+        let cardsHTML = "";
+
+        first10.forEach((anime,index)=>{
+
+            cardsHTML += createCard(
+                index + 1,
+                anime.title,
+                anime.image,
+                anime.rating
+            );
+
+        });
+
+        content.innerHTML = `
         <div class="section">
+
             <div class="section-title">
                 <h3>
-                    <i class="fa-solid ${section.icon}"></i>
-                    ${section.title}
+                    <i class="fa-solid fa-fire"></i>
+                    Trending Now
                 </h3>
-                <div class="section-view">VIEW ALL</div>
-            </div>
-            <div class="cards">
-                ${cardsHTML}
-                ${createViewCard()}
-            </div>
-        </div>
-    `);
-});
 
+                <div class="section-view">
+                    VIEW ALL
+                </div>
+            </div>
+
+            <div class="cards">
+
+                ${cardsHTML}
+
+                ${createViewCard()}
+
+            </div>
+
+        </div>
+        `;
+
+    }
+
+    catch(error){
+
+        console.log(error);
+
+    }
+
+}
+
+
+async function loadBanner(){
+
+    const res =
+    await fetch("/api/banner");
+
+    const data =
+    await res.json();
+
+    const track =
+    document.getElementById(
+        "featuredTrack"
+    );
+
+    track.innerHTML = "";
+
+    data.forEach(anime=>{
+
+        track.innerHTML += `
+
+        <div class="carousel-item">
+
+            <img src="${anime.image}">
+
+            <div class="overlay">
+
+                <div class="tag">
+                TOP ANIME
+                </div>
+
+                <h2>
+                ${anime.title}
+                </h2>
+
+                <p>
+                ${anime.synopsis}
+                </p>
+
+                <div class="buttons">
+
+                    <button class="watch">
+                    WATCH NOW
+                    </button>
+
+                    <button class="list">
+                    MY LIST
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        `;
+    });
+}
+
+loadBanner();
 
 /* Hide top VIEW ALL when end card is visible */
 
