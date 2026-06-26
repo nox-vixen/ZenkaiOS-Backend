@@ -1,16 +1,13 @@
-from flask import Blueprint, jsonify
-
-from backend.moviebox import moviebox
+from flask import Blueprint
+from flask import jsonify
 
 home_bp = Blueprint(
     "home",
     __name__
 )
 
-
 @home_bp.route("/api/home")
 def home():
-
-    return jsonify(
-        moviebox.home()
-    )
+    return jsonify({
+        "status": "Rebuilding Home API"
+    })

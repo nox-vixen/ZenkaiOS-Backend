@@ -1,5 +1,3 @@
-import moviebox_api
-import pydantic
 
 from flask import Flask
 from flask_cors import CORS
