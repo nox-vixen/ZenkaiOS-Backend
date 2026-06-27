@@ -83,31 +83,30 @@ def get_trending_anime(limit=5):
 
         anime.append({
 
-            "id": media["id"],
+    "id": media["id"],
 
-            "title": media["title"]["english"] or media["title"]["romaji"],
+    "title": media["title"]["english"] or media["title"]["romaji"],
 
-            "description": (
-    (media["description"] or "")
-    .replace("<br>", " ")
-    .replace("<br/>", " ")
-    .replace("<i>", "")
-    .replace("</i>", "")
-    .replace("<b>", "")
-    .replace("</b>", "")
-    .strip()
-)[:220],
+    "description": media["description"] or "",
 
-            "bannerImage": media["bannerImage"],
+    "bannerImage": media["bannerImage"],
 
-            "coverImage": media["coverImage"]["extraLarge"],
+    "coverImage": media["coverImage"]["extraLarge"],
 
-            "rating": media["averageScore"],
+    "rating": media["averageScore"],
 
-            "year": media["startDate"]["year"],
+    "year": media["startDate"]["year"],
 
-            "genres": media["genres"]
+    "genres": media["genres"],
 
-        })
+    "status": media.get("status"),
+
+    "episodes": media.get("episodes"),
+
+    "watchNow": f"/watch/{media['id']}",
+
+    "myList": False
+
+})
 
     return anime
