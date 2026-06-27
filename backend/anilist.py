@@ -17,11 +17,10 @@ def graphql(query, variables=None):
     response.raise_for_status()
 
     return response.json()["data"]
-
-def get_trending_anime(limit=5):
+def get_anime(sort, limit=10):
 
     query = """
-    query ($perPage:Int){
+    query ($perPage:Int,$sort:[MediaSort]){
 
       Page(page:1, perPage:$perPage){
 
@@ -29,25 +28,11 @@ def get_trending_anime(limit=5):
 
           type:ANIME
 
-          sort:TRENDING_DESC
+          sort:$sort
 
         ){
 
           id
-
-          description(asHtml:false)
-
-          genres
-
-          averageScore
-
-          bannerImage
-
-          coverImage{
-
-            extraLarge
-
-          }
 
           title{
 
@@ -56,6 +41,20 @@ def get_trending_anime(limit=5):
             english
 
           }
+
+          description(asHtml:false)
+
+          averageScore
+
+          coverImage{
+
+            extraLarge
+
+          }
+
+          bannerImage
+
+          genres
 
           startDate{
 
@@ -73,7 +72,8 @@ def get_trending_anime(limit=5):
     data = graphql(
         query,
         {
-            "perPage": limit
+            "perPage": limit,
+            "sort": sort
         }
     )
 
@@ -83,30 +83,19 @@ def get_trending_anime(limit=5):
 
         anime.append({
 
-    "id": media["id"],
+            "id": media["id"],
+            "title": media["title"]["english"] or media["title"]["romaji"],
+            "description": media["description"] or "",
+            "coverImage": media["coverImage"]["extraLarge"],
+            "bannerImage": media["bannerImage"],
+            "rating": media["averageScore"],
+            "genres": media["genres"],
+            "year": media["startDate"]["year"]
 
-    "title": media["title"]["english"] or media["title"]["romaji"],
-
-    "description": media["description"] or "",
-
-    "bannerImage": media["bannerImage"],
-
-    "coverImage": media["coverImage"]["extraLarge"],
-
-    "rating": media["averageScore"],
-
-    "year": media["startDate"]["year"],
-
-    "genres": media["genres"],
-
-    "status": media.get("status"),
-
-    "episodes": media.get("episodes"),
-
-    "watchNow": f"/watch/{media['id']}",
-
-    "myList": False
-
-})
+        })
 
     return anime
+
+def get_trending_anime(limit=5):
+    return get_anime(["TRENDING_DESC"], limit)
+
