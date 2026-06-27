@@ -1,50 +1,47 @@
-import asyncio
-
-from moviebox_api.v1 import Search
-from moviebox_api.v1 import SubjectType
+from moviebox_api.v1 import Search, SubjectType
 
 from backend.session import get_session
 
 
 class SearchService:
 
-    async def search_async(self, keyword):
+    async def search_async(
+        self,
+        keyword,
+        subject_type=SubjectType.MOVIES,
+        page=1,
+        per_page=24
+    ):
+
+        session = get_session()
 
         search = Search(
-            session=get_session(),
+            session=session,
             query=keyword,
-            subject_type=SubjectType.MOVIES
+            subject_type=subject_type,
+            page=page,
+            per_page=per_page
         )
 
-        results = await search.get_content_model()
+        return await search.get_content_model()
 
-        output = []
+    def search(
+        self,
+        keyword,
+        subject_type=SubjectType.MOVIES,
+        page=1,
+        per_page=24
+    ):
 
-        for item in results.items:
+        import asyncio
 
-            output.append({
-
-                "id": item.subjectId,
-
-                "title": item.title,
-
-                "image": str(item.cover.url),
-
-                "description": item.description,
-
-                "year": str(item.releaseDate),
-
-                "duration": item.duration,
-
-                "genres": item.genre
-
-            })
-
-        return output
-
-    def search(self, keyword):
         return asyncio.run(
-            self.search_async(keyword)
+            self.search_async(
+                keyword,
+                subject_type,
+                page,
+                per_page
+            )
         )
 
 

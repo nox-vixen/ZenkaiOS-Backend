@@ -1,5 +1,6 @@
 from moviebox_api.v1 import Session
 
+
 _session = None
 
 
