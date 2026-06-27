@@ -1,13 +1,16 @@
-from flask import Blueprint
-from flask import jsonify
+from flask import Blueprint, jsonify
+
+from backend.home_service import home_service
 
 home_bp = Blueprint(
     "home",
     __name__
 )
 
+
 @home_bp.route("/api/home")
 def home():
-    return jsonify({
-        "status": "Rebuilding Home API"
-    })
+
+    return jsonify(
+        home_service.get_home()
+    )
