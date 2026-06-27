@@ -87,7 +87,16 @@ def get_trending_anime(limit=5):
 
             "title": media["title"]["english"] or media["title"]["romaji"],
 
-            "description": media["description"] or "",
+            "description": (
+    (media["description"] or "")
+    .replace("<br>", " ")
+    .replace("<br/>", " ")
+    .replace("<i>", "")
+    .replace("</i>", "")
+    .replace("<b>", "")
+    .replace("</b>", "")
+    .strip()
+)[:220],
 
             "bannerImage": media["bannerImage"],
 
