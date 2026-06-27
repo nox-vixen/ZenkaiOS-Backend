@@ -802,17 +802,17 @@ async function loadHome() {
         console.log("Loading anime...");
 
         const response =
-            await fetch("/api/anime");
+            await fetch("/api/home");
 
         console.log("Response:", response);
 
-        const animeList =
+        const home =
             await response.json();
 
-        console.log("Anime:", animeList);
+        console.log(home);
 
         const first10 =
-            animeList.slice(0,10);
+            home.sections[0].items;
 
         let cardsHTML = "";
 
@@ -864,64 +864,6 @@ async function loadHome() {
 }
 
 
-async function loadBanner(){
-
-    const res =
-    await fetch("/api/banner");
-
-    const data =
-    await res.json();
-
-    const track =
-    document.getElementById(
-        "featuredTrack"
-    );
-
-    track.innerHTML = "";
-
-    data.forEach(anime=>{
-
-        track.innerHTML += `
-
-        <div class="carousel-item">
-
-            <img src="${anime.image}">
-
-            <div class="overlay">
-
-                <div class="tag">
-                TOP ANIME
-                </div>
-
-                <h2>
-                ${anime.title}
-                </h2>
-
-                <p>
-                ${anime.synopsis}
-                </p>
-
-                <div class="buttons">
-
-                    <button class="watch">
-                    WATCH NOW
-                    </button>
-
-                    <button class="list">
-                    MY LIST
-                    </button>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        `;
-    });
-}
-
-loadBanner();
 
 /* Hide top VIEW ALL when end card is visible */
 
