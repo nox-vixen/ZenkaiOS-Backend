@@ -795,63 +795,151 @@ return `
 
 }
 
-async function loadHome() {
+async function loadHome(){
 
-    try {
+    try{
 
-        console.log("Loading anime...");
+        const response = await fetch("/api/home");
+        const data = await response.json();
 
-        const response =
-            await fetch("/api/home");
+        //-----------------------
+        // Featured Banner
+        //-----------------------
 
-        console.log("Response:", response);
+        const track =
+        document.getElementById("featuredTrack");
 
-        const home =
-            await response.json();
+        track.innerHTML="";
+        totalSlides = data.featured.items.length;
 
-        console.log(home);
+        data.featured.items.forEach(anime=>{
 
-        const first10 =
-            home.sections[0].items;
+            track.innerHTML += `
 
-        let cardsHTML = "";
+            <div class="carousel-item">
 
-        first10.forEach((anime,index)=>{
- 
-            cardsHTML += createCard(
-    anime.id,
-    index + 1,
-    anime.title,
-    anime.coverImage,
-    anime.rating
-);
+                <img src="/img?url=${encodeURIComponent(anime.bannerImage || anime.coverImage)}">
+
+                <div class="overlay">
+
+                    <div class="tag">
+                    TOP ANIME
+                    </div>
+
+                    <h2>${anime.title}</h2>
+
+                    <p>${anime.description.substring(0,140)}...</p>
+
+                    <div class="buttons">
+
+                        <button
+                        class="watch"
+                        onclick="watchAnime(${anime.id})">
+
+                        <i class="fa-solid fa-play"></i>
+
+                        Watch
+
+                        </button>
+
+                        <button
+                        class="list">
+
+                        <i class="fa-solid fa-bookmark"></i>
+
+                        My List
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            `;
 
         });
 
-        content.innerHTML = `
-        <div class="section">
+        //-----------------------
+        // Anime Sections
+        //-----------------------
 
-            <div class="section-title">
-                <h3>
-                    <i class="fa-solid fa-fire"></i>
-                    Trending Now
-                </h3>
+        content.innerHTML="";
 
-                <div class="section-view">
-                    VIEW ALL
+        data.sections.forEach(section=>{
+
+            let cards="";
+
+            section.items.forEach((anime,index)=>{
+
+                cards += `
+
+                <div
+                class="card"
+                onclick="watchAnime(${anime.id})">
+
+                    <div class="poster">
+
+                        <img src="/img?url=${encodeURIComponent(anime.coverImage)}">
+
+                        <div class="rank">
+
+                        #${index+1}
+
+                        </div>
+
+                    </div>
+
+                    <h4>${anime.title}</h4>
+
+                    <div class="rating">
+
+                    ⭐ ${anime.rating ?? "--"}
+
+                    </div>
+
                 </div>
+
+                `;
+
+            });
+
+            cards += createViewCard();
+
+            content.innerHTML += `
+
+            <div class="section">
+
+                <div class="section-title">
+
+                    <h3>
+
+                        <i class="fa-solid fa-fire"></i>
+
+                        ${section.title}
+
+                    </h3>
+
+                    <div class="section-view">
+
+                    VIEW ALL
+
+                    </div>
+
+                </div>
+
+                <div class="cards">
+
+                    ${cards}
+
+                </div>
+
             </div>
 
-            <div class="cards">
+            `;
 
-                ${cardsHTML}
-
-                ${createViewCard()}
-
-            </div>
-
-        </div>
-        `;
+        });
 
     }
 
@@ -863,7 +951,7 @@ async function loadHome() {
 
 }
 
-
+loadHome();
 
 /* Hide top VIEW ALL when end card is visible */
 
@@ -954,7 +1042,7 @@ track.addEventListener('scroll', () => {
 });
 // Auto-slide functionality
 let currentIndex = 0;
-const totalSlides = 5; // Number of items
+let totalSlides = 0;
 
 setInterval(() => {
     currentIndex++;
@@ -992,6 +1080,11 @@ function goProfile() {
     window.location.href = "/profile";
 }
 
+function watchAnime(id){
+
+    window.location.href="/watch?id="+id;
+
+}
 
 </script>
 
