@@ -748,6 +748,7 @@ const content =
 document.getElementById("content");
 
 function createCard(
+id,
 rank,
 name,
 image,
@@ -755,7 +756,9 @@ rating
 ){
 
 return `
-<div class="card">
+<div
+class="card"
+onclick="openAnime(${id})">
 
 <div class="poster">
 
@@ -770,7 +773,7 @@ return `
 <h4>${name}</h4>
 
 <div class="rating">
-⭐ ${rating}
+⭐ ${rating ?? "N/A"}
 </div>
 
 </div>
@@ -814,13 +817,14 @@ async function loadHome() {
         let cardsHTML = "";
 
         first10.forEach((anime,index)=>{
-
+ 
             cardsHTML += createCard(
-                index + 1,
-                anime.title,
-                anime.image,
-                anime.rating
-            );
+    anime.id,
+    index + 1,
+    anime.title,
+    anime.coverImage,
+    anime.rating
+);
 
         });
 
@@ -1028,6 +1032,13 @@ track.addEventListener('touchstart', () => {
     // You could clear the interval here if you wanted to be very advanced
     // But for a smooth experience, the native 'smooth' behavior is usually enough.
 });
+
+function openAnime(id){
+
+window.location.href =
+"/watch/" + id;
+
+}
 
 function goAnime() {
     window.location.href = "/anime";
