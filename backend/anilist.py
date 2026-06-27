@@ -4,7 +4,6 @@ ANILIST_URL = "https://graphql.anilist.co"
 
 
 def graphql(query, variables=None):
-
     response = requests.post(
         ANILIST_URL,
         json={
@@ -17,6 +16,8 @@ def graphql(query, variables=None):
     response.raise_for_status()
 
     return response.json()["data"]
+
+
 def get_anime(sort, limit=10):
 
     query = """
@@ -25,21 +26,15 @@ def get_anime(sort, limit=10):
       Page(page:1, perPage:$perPage){
 
         media(
-
           type:ANIME
-
           sort:$sort
-
         ){
 
           id
 
           title{
-
             romaji
-
             english
-
           }
 
           description(asHtml:false)
@@ -47,9 +42,7 @@ def get_anime(sort, limit=10):
           averageScore
 
           coverImage{
-
             extraLarge
-
           }
 
           bannerImage
@@ -57,9 +50,7 @@ def get_anime(sort, limit=10):
           genres
 
           startDate{
-
             year
-
           }
 
         }
@@ -84,20 +75,29 @@ def get_anime(sort, limit=10):
         anime.append({
 
             "id": media["id"],
+
             "title": media["title"]["english"] or media["title"]["romaji"],
-            "description": media["description"] or "",
+
+            "description": media.get("description") or "",
+
             "coverImage": media["coverImage"]["extraLarge"],
-            "bannerImage": media["bannerImage"],
-            "rating": media["averageScore"],
-            "genres": media["genres"],
+
+            "bannerImage": media.get("bannerImage"),
+
+            "rating": media.get("averageScore"),
+
+            "genres": media.get("genres", []),
+
             "year": media["startDate"]["year"]
 
         })
 
     return anime
 
+
 def get_trending_anime(limit=5):
     return get_anime(["TRENDING_DESC"], limit)
+
 
 def get_anime_details(anime_id):
 
@@ -139,6 +139,17 @@ def get_anime_details(anime_id):
           extraLarge
         }
 
+        studios(isMain:true){
+          nodes{
+            name
+          }
+        }
+
+        trailer{
+          id
+          site
+        }
+
       }
 
     }
@@ -159,28 +170,35 @@ def get_anime_details(anime_id):
 
         "title": media["title"]["english"] or media["title"]["romaji"],
 
-        "description": media["description"] or "",
+        "description": media.get("description") or "",
 
         "coverImage": media["coverImage"]["extraLarge"],
 
-        "bannerImage": media["bannerImage"],
+        "bannerImage": media.get("bannerImage"),
 
-        "rating": media["averageScore"],
+        "rating": media.get("averageScore"),
 
-        "genres": media["genres"],
+        "genres": media.get("genres", []),
 
-        "episodes": media["episodes"],
+        "episodes": media.get("episodes"),
 
-        "duration": media["duration"],
+        "duration": media.get("duration"),
 
-        "season": media["season"],
+        "season": media.get("season"),
 
-        "year": media["seasonYear"],
+        "year": media.get("seasonYear"),
 
-        "status": media["status"],
+        "status": media.get("status"),
 
-        "format": media["format"],
+        "format": media.get("format"),
 
-        "source": media["source"]
+        "source": media.get("source"),
+
+        "studios": [
+            studio["name"]
+            for studio in media.get("studios", {}).get("nodes", [])
+        ],
+
+        "trailer": media.get("trailer")
 
     }
