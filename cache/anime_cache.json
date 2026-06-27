@@ -1,5 +1,1560 @@
 {
-    "One Piece": {
-        "title": "One Piece"
-    }
+    "featured": [
+        {
+            "id": 182205,
+            "title": "That Time I Got Reincarnated as a Slime Season 4",
+            "description": "The fourth season of <i>Tensei Shitara Slime Datta Ken</i>.<br><br>\nDemon Lord Rimuru's dream of creating an alliance between humans and monsters takes a step closer to being realized. As Tempest continues to prosper, Granville Rozzo and his granddaughter, Maribel Rozzo, clash with Demon Lord Rimuru over their plan to protect mankind by ruling over them. Meanwhile, in El Dorado, Demon Lord Leon works toward goals of his own. The awakening of a new Hero draws near!<br><br>\n\n(Source: Crunchyroll News)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182205-fRUoKv6f2JAq.jpg",
+            "rating": 81,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Fantasy"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 198113,
+            "title": "KILL BLUE",
+            "description": "Juuzou Oogami is a legendary hitman who has never failed an assignment, no matter how impossible. One day, after wiping out a powerful organization, he is stung by a mysterious wasp and collapses. When he wakes up, the fearsome 39-year-old assassin has been transformed into a 13-year-old boy!<br><br>\n\nBefore he can even process what happened, his boss delivers a new order: “In that body, infiltrate a middle school.”<br><br>\n\nWhat awaits him is an unexpected school life filled with colorful classmates, youthful chaos, and looming danger. Can Juuzou ever return to his original form? Or will the assassins closing in on him end his second life before it even begins!?<br><br>\n(Source: Official Site)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198113-NRa47idWSlnx.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198113-5hYeMXL2zilW.jpg",
+            "rating": 73,
+            "genres": [
+                "Action",
+                "Comedy"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 213628,
+            "title": "Kill Ao 2nd Season",
+            "description": "The second season of <i>Kill Ao</i>.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213628-YNzTvF1yEvoi.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Action",
+                "Comedy"
+            ],
+            "year": null
+        },
+        {
+            "id": 171110,
+            "title": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+            "description": "Anime adaptation of Part 3 of <i>Honzuki no Gekokujou</i>.\n<br><br>\nFollowing a disastrous encounter with a noble, Myne finally resolves to say goodbye to her family and friends in the lower city, changing her name to “Rozemyne” and beginning her new life as the adopted daughter of Ehrenfest’s archduke. However, her days as an archnoble in noble society are brutal, as she is put through rigorous etiquette and magic training on top of her duties as High Bishop and forewoman. It all proves too much for a weak little seven-year-old girl... Or it would have, had the High Priest not offered her the keys to the temple’s book room as a reward. If she could get her hands on those, she’d be able to read all sorts of precious books! Her name may have changed, but Rozemyne’s passion for books remains the same as she charges into a whole new world! The detailed setting expands as the printing industry grows in size. Here begins Part 3 of this biblio-fantasy for book lovers everywhere!\n<br><br>\n(Source: J-Novel Club) ",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171110-7zOdInS6DQNL.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/171110-lgtmKokpevUM.jpg",
+            "rating": 76,
+            "genres": [
+                "Drama",
+                "Fantasy",
+                "Slice of Life"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 21,
+            "title": "ONE PIECE",
+            "description": "Gold Roger was known as the Pirate King, the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the location of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece (which promises an unlimited amount of riches and fame), and quite possibly the most coveted of titles for the person who found it, the title of the Pirate King.<br><br>\nEnter Monkey D. Luffy, a 17-year-old boy that defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate who ransacks villages for fun, Luffy’s reason for being a pirate is one of pure wonder; the thought of an exciting adventure and meeting new and intriguing people, along with finding One Piece, are his reasons of becoming a pirate. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach One Piece.<br><br>\n<b>*This includes the following special episodes:</b><br>\n- Chopperman to the Rescue! Protect the TV Station by the Shore! (Episode 336)<br>\n- The Strongest Tag-Team! Luffy and Toriko's Hard Struggle! (Episode 492)<br>\n- Team Formation! Save Chopper (Episode 542)<br>\n- History's Strongest Collaboration vs. Glutton of the Sea (Episode 590)<br>\n- 20th Anniversary! Special Romance Dawn (Episode 907)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+            "rating": 87,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 1999
+        }
+    ],
+    "trending": [
+        {
+            "id": 182205,
+            "title": "That Time I Got Reincarnated as a Slime Season 4",
+            "description": "The fourth season of <i>Tensei Shitara Slime Datta Ken</i>.<br><br>\nDemon Lord Rimuru's dream of creating an alliance between humans and monsters takes a step closer to being realized. As Tempest continues to prosper, Granville Rozzo and his granddaughter, Maribel Rozzo, clash with Demon Lord Rimuru over their plan to protect mankind by ruling over them. Meanwhile, in El Dorado, Demon Lord Leon works toward goals of his own. The awakening of a new Hero draws near!<br><br>\n\n(Source: Crunchyroll News)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182205-q2AeO1owuQbO.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182205-fRUoKv6f2JAq.jpg",
+            "rating": 81,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Fantasy"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 198113,
+            "title": "KILL BLUE",
+            "description": "Juuzou Oogami is a legendary hitman who has never failed an assignment, no matter how impossible. One day, after wiping out a powerful organization, he is stung by a mysterious wasp and collapses. When he wakes up, the fearsome 39-year-old assassin has been transformed into a 13-year-old boy!<br><br>\n\nBefore he can even process what happened, his boss delivers a new order: “In that body, infiltrate a middle school.”<br><br>\n\nWhat awaits him is an unexpected school life filled with colorful classmates, youthful chaos, and looming danger. Can Juuzou ever return to his original form? Or will the assassins closing in on him end his second life before it even begins!?<br><br>\n(Source: Official Site)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198113-NRa47idWSlnx.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198113-5hYeMXL2zilW.jpg",
+            "rating": 73,
+            "genres": [
+                "Action",
+                "Comedy"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 213628,
+            "title": "Kill Ao 2nd Season",
+            "description": "The second season of <i>Kill Ao</i>.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213628-YNzTvF1yEvoi.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Action",
+                "Comedy"
+            ],
+            "year": null
+        },
+        {
+            "id": 171110,
+            "title": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+            "description": "Anime adaptation of Part 3 of <i>Honzuki no Gekokujou</i>.\n<br><br>\nFollowing a disastrous encounter with a noble, Myne finally resolves to say goodbye to her family and friends in the lower city, changing her name to “Rozemyne” and beginning her new life as the adopted daughter of Ehrenfest’s archduke. However, her days as an archnoble in noble society are brutal, as she is put through rigorous etiquette and magic training on top of her duties as High Bishop and forewoman. It all proves too much for a weak little seven-year-old girl... Or it would have, had the High Priest not offered her the keys to the temple’s book room as a reward. If she could get her hands on those, she’d be able to read all sorts of precious books! Her name may have changed, but Rozemyne’s passion for books remains the same as she charges into a whole new world! The detailed setting expands as the printing industry grows in size. Here begins Part 3 of this biblio-fantasy for book lovers everywhere!\n<br><br>\n(Source: J-Novel Club) ",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171110-7zOdInS6DQNL.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/171110-lgtmKokpevUM.jpg",
+            "rating": 76,
+            "genres": [
+                "Drama",
+                "Fantasy",
+                "Slice of Life"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 21,
+            "title": "ONE PIECE",
+            "description": "Gold Roger was known as the Pirate King, the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the location of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece (which promises an unlimited amount of riches and fame), and quite possibly the most coveted of titles for the person who found it, the title of the Pirate King.<br><br>\nEnter Monkey D. Luffy, a 17-year-old boy that defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate who ransacks villages for fun, Luffy’s reason for being a pirate is one of pure wonder; the thought of an exciting adventure and meeting new and intriguing people, along with finding One Piece, are his reasons of becoming a pirate. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach One Piece.<br><br>\n<b>*This includes the following special episodes:</b><br>\n- Chopperman to the Rescue! Protect the TV Station by the Shore! (Episode 336)<br>\n- The Strongest Tag-Team! Luffy and Toriko's Hard Struggle! (Episode 492)<br>\n- Team Formation! Save Chopper (Episode 542)<br>\n- History's Strongest Collaboration vs. Glutton of the Sea (Episode 590)<br>\n- 20th Anniversary! Special Romance Dawn (Episode 907)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+            "rating": 87,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 1999
+        },
+        {
+            "id": 184492,
+            "title": "Welcome to Demon School! Iruma-kun Season 4",
+            "description": "The fourth season of <i>Mairimashita! Iruma-kun.</i>\n<br><br>\nSuzuki Iruma and all thirteen students of the Misfit Class must perform to reach Rank 4 at the Music Festival.<br><br>\n(Source: Crunchyroll News)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184492-KUVFGieuMaOx.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/184492-JsZazzn4Acqf.jpg",
+            "rating": 80,
+            "genres": [
+                "Comedy",
+                "Fantasy",
+                "Supernatural"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 147105,
+            "title": "Witch Hat Atelier",
+            "description": "In a world where everyone takes wonders like magic spells and dragons for granted, Coco is a girl with a simple dream: she wants to be a witch. But everybody knows magicians are born, not made, and Coco was not born with a gift for magic. Resigned to her un-magical life, Coco is about to give up on her dream to become a witch … until the day she meets Qifrey, a mysterious, traveling magician. After secretly seeing Qifrey perform magic in a way she’s never seen before, Coco soon learns what everybody “knows” might not be the truth, and discovers that her magical dream may not be as far away as it may seem... <br>\n<br>\n(Source: Kodansha USA) <br><br>\n\n<i>Note: Tongari Boushi no Atelier episode 2 was streamed a week in advance on Crunchyroll, ABEMA, and Netflix, alongside episode 1. Streaming is one week ahead of the TV broadcast.</i>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-rwOX8qyUy8gV.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/147105-fTjmRrILFixZ.jpg",
+            "rating": 86,
+            "genres": [
+                "Adventure",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 199221,
+            "title": "Dr. STONE SCIENCE FUTURE Cour 3",
+            "description": "The third and final cour of the fourth season of <i>Dr.STONE</i>.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199221-TReDQMNhslHu.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199221-b3W0FfJd4zMy.jpg",
+            "rating": 83,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Sci-Fi"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 180745,
+            "title": "Classroom of the Elite 4th Season: Second Year, First Semester",
+            "description": "The fourth season of <i>Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</i>.<br><br>\nAs Ayanokouji and his classmates begin their second year at the Advanced Nurturing High School, they’re greeted by a fresh gauntlet of exams and a fresh batch of rather unique first-year students. They’ll have to get to know each other quickly, because the first special exam pairs the first-years with the second-years on a written test—with only the second-years facing expulsion if their team performs poorly! Worse yet? It seems one of the new first-years is also from the White Room. Can Ayanokouji avoid expulsion while sussing out the identity of this hidden foe?\n<br><br>\n(Source: Seven Seas)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180745-OEZaBeEdWozn.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/180745-Iicz1F6Kuj4e.jpg",
+            "rating": 79,
+            "genres": [
+                "Drama",
+                "Psychological"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 269,
+            "title": "Bleach",
+            "description": "Ichigo Kurosaki is a rather normal high school student apart from the fact he has the ability to see ghosts. This ability never impacted his life in a major way until the day he encounters the Shinigami Kuchiki Rukia, who saves him and his family's lives from a Hollow, a corrupt spirit that devours human souls. \n<br><br>\nWounded during the fight against the Hollow, Rukia chooses the only option available to defeat the monster and passes her Shinigami powers to Ichigo. Now forced to act as a substitute until Rukia recovers, Ichigo hunts down the Hollows that plague his town. \n\n\n",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx269-d2GmRkJbMopq.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/269-08ar2HJOUAuL.jpg",
+            "rating": 79,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Supernatural"
+            ],
+            "year": 2004
+        },
+        {
+            "id": 185211,
+            "title": "Yowayowa Sensei",
+            "description": "High school homeroom teacher Hiyori Hiwamura is known as the “Scary Teacher,” and if you offend her, she’ll put a curse on you! Or at least that’s what everyone believes. She’s secretly a total softy who’s deeply misunderstood, and once you see her sweet side, she’ll put a different kind of spell on you... Unfortunately, one of her students, Akihito Abikura, has accidentally discovered her secret.\n<br><br>\n(Source: HIDIVE)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185211-ewfgT5Cn99k0.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185211-2wkjFD6tz7l3.jpg",
+            "rating": 62,
+            "genres": [
+                "Comedy",
+                "Ecchi",
+                "Romance"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 169580,
+            "title": "I Made Friends with the Second Prettiest Girl in My Class",
+            "description": "Maki Maehara, the class outcast, finally makes his first friend: Umi Asanagi, the second-prettiest girl in class and the center of everyone’s attention. He’s convinced she’s out of his league, but as their unlikely friendship grows, Maki starts to wonder…could there be more than just friendship between them?<br>\n<br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169580-nXxpmqu6UVux.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/169580-RUdWWw0j74HH.jpg",
+            "rating": 80,
+            "genres": [
+                "Comedy",
+                "Romance"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 199588,
+            "title": "Gals Can't Be Kind to Otaku!?",
+            "description": "Meet Takuya Seo, an otaku who sits behind the popular gals in class, Ijichi and Amane. Since they're people from different \"castes,\" you wouldn't expect them to have much in common. But when their worlds collide over a borrowed eraser, Takuya slips up about his favorite anime, and Amane...is rather quick to correct him. She says she's not a fan, but her familiarity with the series suggests otherwise. Could she be...a fellow geek?!\n<br><br>\n(Source: Yen Press)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199588-M2vtWicvqNbU.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199588-I4HoR4YjnpqD.jpg",
+            "rating": 76,
+            "genres": [
+                "Comedy",
+                "Romance"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 186863,
+            "title": "The Cat and the Dragon",
+            "description": "The story follows a fire-breathing, human-hating dragon raised by a mother cat in a forest. The dragon, known affectionately as \"Uncle Wing,\" watches over the many curious cats — such as one that goes on an adventure with a human prince, and another that lives in the city and people-watches as a hobby — and gradually warms up to humans along the way.<br><br>\n\n(Source: Crunchyroll News)<br><br>\n<i>Note: Each episode streamed 1 week early on ABEMA and dAnimeStore. The original TV broadcast started on July 4, 2026.</i>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186863-AO4efoB8HuzA.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/186863-hRsC2yxvILTx.jpg",
+            "rating": null,
+            "genres": [
+                "Adventure",
+                "Fantasy"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 186497,
+            "title": "The Ramparts of Ice",
+            "description": "Socially inept, Higawa Koyuki maintains a wall between herself and other people. She spends her time in high school alone, until she meets Amamiya Minato, a boy who keeps trying to close the distance between them for some reason?!\n<BR><BR>\nThe loner Koyuki, the popular Miki, the boundary-less Minato, and the kind basketball player Youta. This is the story about four complicated and confused young people and their mixed up lives!\n<BR><BR>\n(Source: Margaret, translated)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186497-uwPrNPphXvjP.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/186497-naXtQFMHJaR1.jpg",
+            "rating": 80,
+            "genres": [
+                "Comedy",
+                "Drama",
+                "Romance",
+                "Slice of Life"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 187869,
+            "title": "Botan Kamiina Fully Blossoms When Drunk",
+            "description": "New university life, new dormmates…and a whole new world of drinks! Botan Kamiina takes her first sip of alcohol after spotting the quiet dorm leader, Ibuki Tonami, enjoying a highball alone. From shochu to whisky, Botan shares the joy of drinking with friends, while Ibuki slowly learns that some pleasures are better when shared.\n<br><br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187869-LUn3dyTzuKUq.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187869-WuaolpHqNqHk.jpg",
+            "rating": 81,
+            "genres": [
+                "Romance",
+                "Slice of Life"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 182483,
+            "title": "The Warrior Princess and the Barbaric King",
+            "description": "Serafina, the West’s fiercest knight, expected torture when captured by barbarians. Instead, she got a marriage proposal! Marrying her sworn enemy is a hard no! But after seeing her wedding captor’s culture and very pretty face, she may be tempted to swap her sword for a wedding veil. Get ready for the ultimate enemies-to-maybe-lovers arc.\n<br><br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182483-La7chs6htDWr.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182483-Nzix9ntq3CVj.jpg",
+            "rating": 69,
+            "genres": [
+                "Comedy",
+                "Ecchi",
+                "Fantasy",
+                "Romance"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 199547,
+            "title": "MARRIAGETOXIN",
+            "description": "For centuries, the deadly arts have been perfected by those known as the Masters.\nAmong them, the Poison Masters of the Five Great Families hold the most fearsome power and influence. \nHikaru Gero, heir to the Poison Masters’ Gero Family, has lived his entire life in the underworld, far removed from love or marriage.\nBut when the Gero Family head decrees that Hikaru’s sister must bear an heir to preserve the bloodline—by force if necessary—Hikaru resolves to protect her at all costs.\nIt is then that Hikaru encounters Mei Kinosaki, a brilliant marriage swindler who becomes the target of his latest job.\nRealizing that the only way of solving the family succession problem and protecting his sister is through marriage, Hikaru impulsively asks Mei for help in finding a bride.\n<br><br>\n(Source: EMOTION Label Channel)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199547-LAaG3cmKCGhr.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199547-7230SVo56b42.jpg",
+            "rating": 75,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Drama",
+                "Romance"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 182300,
+            "title": "Wistoria: Wand and Sword Season 2",
+            "description": "The second season of <i>Tsue to Tsurugi no Wistoria</i>.<br><br>\nWill, a washout student at a magical academy who is unable to use magic, is aiming to join the top tier of mages, the Magia Vander, to fulfill a promise to his childhood friend, Elfaria. Wielding a sword instead of a wand, his abilities are slowly recognized within the academy. During the all-student praxis dungeon training he undertakes with Lihanna and the other top students of his year, they are ambushed by a mysterious mage. Though they barely manage to survive the attack together, they go on to face the exit exam. Can Will reach the girl waiting for him in the tower?<br><br>\n(Source: Official Site)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182300-IYkq5KrkQq1V.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182300-d1znfWKzn1bT.jpg",
+            "rating": 82,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 195600,
+            "title": "Daemons of the Shadow Realm",
+            "description": "In a remote mountain village under the watchful eyes of two stone guardians, the young Yuru contentedly lives off the land while staying close to the only family he has left—Asa, his precious twin sister. Asa, meanwhile, carries out a mysterious “duty” on behalf of the village while locked in a cage. Why is Asa a prisoner? And what other secrets does Yuru’s otherwise idyllic home hide?\n<br><br>(Source: Square Enix)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195600-UxHvDXwzJxlP.jpg",
+            "rating": 78,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Fantasy",
+                "Supernatural"
+            ],
+            "year": 2026
+        }
+    ],
+    "popular": [
+        {
+            "id": 16498,
+            "title": "Attack on Titan",
+            "description": "Several hundred years ago, humans were nearly exterminated by titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of titans.<br><br>\r\nFlash forward to the present and the city has not seen a titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a colossal titan that appears out of thin air. As the smaller titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single titan and take revenge for all of mankind.<br><br>\r\n(Source: MangaHelpers) ",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg",
+            "rating": 85,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Mystery"
+            ],
+            "year": 2013
+        },
+        {
+            "id": 101922,
+            "title": "Demon Slayer: Kimetsu no Yaiba",
+            "description": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.<br>\n<br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WBsBl0ClmgYL.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101922-33MtJGsUSxga.jpg",
+            "rating": 83,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Fantasy",
+                "Supernatural"
+            ],
+            "year": 2019
+        },
+        {
+            "id": 113415,
+            "title": "JUJUTSU KAISEN",
+            "description": "A boy fights... for \"the right death.\"<br>\n<br>\nHardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Curses can only be exorcised by another Curse.<br>\n<br>\nItadori Yuji is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a friend who has been attacked by Curses, he eats the finger of the Double-Faced Specter, taking the Curse into his own soul. From then on, he shares one body with the Double-Faced Specter. Guided by the most powerful of sorcerers, Gojou Satoru, Itadori is admitted to the Tokyo Metropolitan Technical High School of Sorcery, an organization that fights the Curses... and thus begins the heroic tale of a boy who became a Curse to exorcise a Curse, a life from which he could never turn back.\n<br><br>\n(Source: Crunchyroll)<br>\n<br>\n<i>Note: The first episode received an early web premiere on September 19th, 2020. The regular TV broadcast started on October 3rd, 2020.</i>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-jQBSkxWAAk83.jpg",
+            "rating": 84,
+            "genres": [
+                "Action",
+                "Drama",
+                "Supernatural"
+            ],
+            "year": 2020
+        },
+        {
+            "id": 1535,
+            "title": "Death Note",
+            "description": "Light Yagami is a genius high school student who is about to learn about life through a book of death. When a bored shinigami, a God of Death, named Ryuk drops a black notepad called a <i>Death Note</i>, Light receives power over life and death with the stroke of a pen. Determined to use this dark gift for the best, Light sets out to rid the world of evil… namely, the people he believes to be evil. Should anyone hold such power?<br>\n<br>\nThe consequences of Light’s actions will set the world ablaze.<br>\n<br>\n(Source: VIZ Media)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-kUgkcrfOrkUM.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1535.jpg",
+            "rating": 84,
+            "genres": [
+                "Mystery",
+                "Psychological",
+                "Supernatural",
+                "Thriller"
+            ],
+            "year": 2006
+        },
+        {
+            "id": 21459,
+            "title": "My Hero Academia",
+            "description": "What would the world be like if 80 percent of the population manifested extraordinary superpowers called “Quirks” at age four? Heroes and villains would be battling it out everywhere! Becoming a hero would mean learning to use your power, but where would you go to study? U.A. High's Hero Program of course! But what would you do if you were one of the 20 percent who were born Quirkless?<br><br>\n\nMiddle school student Izuku Midoriya wants to be a hero more than anything, but he hasn't got an ounce of power in him. With no chance of ever getting into the prestigious U.A. High School for budding heroes, his life is looking more and more like a dead end. Then an encounter with All Might, the greatest hero of them all gives him a chance to change his destiny…<br><br>\n\n(Source: VIZ Media)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-nYh85uj2Fuwr.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21459-yeVkolGKdGUV.jpg",
+            "rating": 77,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy"
+            ],
+            "year": 2016
+        },
+        {
+            "id": 11061,
+            "title": "Hunter x Hunter (2011)",
+            "description": "A new adaption of the manga of the same name by Togashi Yoshihiro.<br><br>\nA Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father's path, he could one day reunite with him.<br><br>\nAfter becoming 12, Gon leaves his home and takes on the task of entering the Hunter exam, notorious for its low success rate and high probability of death to become an official Hunter. He befriends the revenge-driven Kurapika, the doctor-to-be Leorio and the rebellious ex-assassin Killua in the exam, with their friendship prevailing throughout the many trials and threats they come upon taking on the dangerous career of a Hunter.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-y5gsT1hoHuHw.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg",
+            "rating": 89,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy"
+            ],
+            "year": 2011
+        },
+        {
+            "id": 21087,
+            "title": "One-Punch Man",
+            "description": "Saitama has a rather peculiar hobby, being a superhero, but despite his heroic deeds and superhuman abilities, a shadow looms over his life. He's become much too powerful, to the point that every opponent ends up defeated with a single punch.\n<br><br>\nThe lack of challenge has driven him into a state of apathy, as he watches his life pass by having lost all enthusiasm, at least until he's unwillingly thrust in the role of being a mentor to the young and revenge-driven Genos.   \n\n",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-B5DHjqZ3kW4b.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21087-sHb9zUZFsHe1.jpg",
+            "rating": 83,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Sci-Fi",
+                "Supernatural"
+            ],
+            "year": 2015
+        },
+        {
+            "id": 21,
+            "title": "ONE PIECE",
+            "description": "Gold Roger was known as the Pirate King, the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the location of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece (which promises an unlimited amount of riches and fame), and quite possibly the most coveted of titles for the person who found it, the title of the Pirate King.<br><br>\nEnter Monkey D. Luffy, a 17-year-old boy that defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate who ransacks villages for fun, Luffy’s reason for being a pirate is one of pure wonder; the thought of an exciting adventure and meeting new and intriguing people, along with finding One Piece, are his reasons of becoming a pirate. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach One Piece.<br><br>\n<b>*This includes the following special episodes:</b><br>\n- Chopperman to the Rescue! Protect the TV Station by the Shore! (Episode 336)<br>\n- The Strongest Tag-Team! Luffy and Toriko's Hard Struggle! (Episode 492)<br>\n- Team Formation! Save Chopper (Episode 542)<br>\n- History's Strongest Collaboration vs. Glutton of the Sea (Episode 590)<br>\n- 20th Anniversary! Special Romance Dawn (Episode 907)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+            "rating": 87,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 1999
+        },
+        {
+            "id": 20605,
+            "title": "Tokyo Ghoul",
+            "description": "The suspense horror/dark fantasy story is set in Tokyo, which is haunted by mysterious \"ghouls\" who are devouring humans. People are gripped by the fear of these ghouls whose identities are masked in mystery. An ordinary college student named Kaneki encounters Rize, a girl who is an avid reader like him, at the café he frequents. Little does he realize that his fate will change overnight.\n<br><br>\n(Source: Anime News Network)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20605-k665mVkSug8D.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20605-RCJ7M71zLmrh.jpg",
+            "rating": 76,
+            "genres": [
+                "Action",
+                "Drama",
+                "Horror",
+                "Mystery",
+                "Psychological",
+                "Supernatural"
+            ],
+            "year": 2014
+        },
+        {
+            "id": 20958,
+            "title": "Attack on Titan Season 2",
+            "description": "Eren Jaeger swore to wipe out every last Titan, but in a battle for his life he wound up becoming the thing he hates most. With his new powers, he fights for humanity's freedom facing the monsters that threaten his home. After a bittersweet victory against the Female Titan, Eren finds no time to rest—a horde of Titans is approaching Wall Rose and the battle for humanity continues!<br><br>\n\n(Source: Funimation)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20958-HuFJyr54Mmir.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20958-Y7eQdz9VENBD.jpg",
+            "rating": 85,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Mystery"
+            ],
+            "year": 2017
+        },
+        {
+            "id": 5114,
+            "title": "Fullmetal Alchemist: Brotherhood",
+            "description": "\"In order for something to be obtained, something of equal value must be lost.\"\n<br><br>\nAlchemy is bound by this Law of Equivalent Exchange—something the young brothers Edward and Alphonse Elric only realize after attempting human transmutation: the one forbidden act of alchemy. They pay a terrible price for their transgression—Edward loses his left leg, Alphonse his physical body. It is only by the desperate sacrifice of Edward's right arm that he is able to affix Alphonse's soul to a suit of armor. Devastated and alone, it is the hope that they would both eventually return to their original bodies that gives Edward the inspiration to obtain metal limbs called \"automail\" and become a state alchemist, the Fullmetal Alchemist.\n<br><br>\nThree years of searching later, the brothers seek the Philosopher's Stone, a mythical relic that allows an alchemist to overcome the Law of Equivalent Exchange. Even with military allies Colonel Roy Mustang, Lieutenant Riza Hawkeye, and Lieutenant Colonel Maes Hughes on their side, the brothers find themselves caught up in a nationwide conspiracy that leads them not only to the true nature of the elusive Philosopher's Stone, but their country's murky history as well. In between finding a serial killer and racing against time, Edward and Alphonse must ask themselves if what they are doing will make them human again... or take away their humanity.\n<br><br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-nSWCgQlmOMtj.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5114-q0V5URebphSG.jpg",
+            "rating": 90,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 2009
+        },
+        {
+            "id": 20,
+            "title": "Naruto",
+            "description": "Naruto Uzumaki, a hyperactive and knuckle-headed ninja, lives in Konohagakure, the Hidden Leaf village. Moments prior to his birth, a huge demon known as the Kyuubi, the Nine-tailed Fox, attacked Konohagakure and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the 4th Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto. <br><br>\nShunned because of the presence of the Kyuubi inside him, Naruto struggles to find his place in the village. He strives to become the Hokage of Konohagakure, and he meets many friends and foes along the way. <br><br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20-dE6UHbFFg1A5.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20-HHxhPj5JD13a.jpg",
+            "rating": 80,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Drama",
+                "Fantasy",
+                "Supernatural"
+            ],
+            "year": 2002
+        },
+        {
+            "id": 11757,
+            "title": "Sword Art Online",
+            "description": "In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now...<br><br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11757-SxYDUzdr9rh2.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11757-TlEEV9weG4Ag.jpg",
+            "rating": 70,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy",
+                "Romance"
+            ],
+            "year": 2012
+        },
+        {
+            "id": 21519,
+            "title": "Your Name.",
+            "description": "Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture.<br>\n<br>\nOne day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another.<br>\n<br>\n<i>Kimi no Na wa.</i> revolves around Mitsuha and Taki's actions, which begin to have a dramatic impact on each other's lives, weaving them into a fabric held together by fate and circumstance.<br>\n<br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-SUo3ZQuCbYhJ.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21519-1ayMXgNlmByb.jpg",
+            "rating": 86,
+            "genres": [
+                "Drama",
+                "Romance",
+                "Supernatural"
+            ],
+            "year": 2016
+        },
+        {
+            "id": 20954,
+            "title": "A Silent Voice",
+            "description": "After transferring into a new school, a deaf girl, Shouko Nishimiya, is bullied by the popular Shouya Ishida. As Shouya continues to bully Shouko, the class turns its back on him. Shouko transfers and Shouya grows up as an outcast. Alone and depressed, the regretful Shouya finds Shouko to make amends.\n<br><br>\n(Source: Eleven Arts)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20954-sYRfE5jQRtSB.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20954-f30bHMXa5Qoe.jpg",
+            "rating": 88,
+            "genres": [
+                "Drama",
+                "Romance",
+                "Slice of Life"
+            ],
+            "year": 2016
+        },
+        {
+            "id": 99147,
+            "title": "Attack on Titan Season 3",
+            "description": "Eren and his companions in the 104th are assigned to the newly-formed Levi Squad, whose assignment is to keep Eren and Historia safe given Eren's newly-discovered power and Historia's knowledge and pedigree. Levi and Erwin have good reason to be concerned, because the priest of the Church that Hanji had hidden away was found tortured to death, making it clear that the Military Police are involved with the cover-up. Things get more harrowing when the MPs make a move on Erwin and the Levi Squad narrowly avoids capture. Eren is also having problems with his Titan transformation, and a deadly killer has been hired to secure Eren and Historia, one Levi knows all too well from his youth.<br>\n<br>\n(Source: Anime News Network)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99147-AiPDD8cwlCfi.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99147-HACsFVrynFf5.jpg",
+            "rating": 86,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Mystery"
+            ],
+            "year": 2018
+        },
+        {
+            "id": 21856,
+            "title": "My Hero Academia Season 2",
+            "description": "Taking off right after the last episode of the first season. The school is temporarily closed due to security. When U.A. restarts, it is announced that the highly anticipated School Sports Festival will soon be taking place. All classes: Hero, Support, General and Business will be participating. Tournaments all round will decide who is the top Hero in training.<br><br>(Source: Anime News Network)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21856-gutauxhWAwn6.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21856-wtSHgeHFmzdG.jpg",
+            "rating": 79,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy"
+            ],
+            "year": 2017
+        },
+        {
+            "id": 110277,
+            "title": "Attack on Titan Final Season",
+            "description": "It’s been four years since the Scout Regiment reached the shoreline, and the world looks different now. Things are heating up as the fate of the Scout Regiment—and the people of Paradis—are determined at last. However, Eren is missing. Will he reappear before age-old tensions between Marleyans and Eldians result in the war of all wars?<br>\n<br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110277-sKUNXAsWMNFw.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110277-iuGn6F5bK1U1.jpg",
+            "rating": 87,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Mystery"
+            ],
+            "year": 2020
+        },
+        {
+            "id": 101759,
+            "title": "The Promised Neverland",
+            "description": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as “Mom,” all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn—what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.\n<br><br>\n(Source: VIZ Media)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101759-8UR7r9MNVpz2.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101759-MhlCoeqnODso.jpg",
+            "rating": 84,
+            "genres": [
+                "Drama",
+                "Fantasy",
+                "Horror",
+                "Mystery",
+                "Psychological",
+                "Thriller"
+            ],
+            "year": 2019
+        },
+        {
+            "id": 20755,
+            "title": "Assassination Classroom",
+            "description": "The students of class 3-E have a mission: kill their teacher before graduation. He has already destroyed the moon, and has promised to destroy the Earth if he can not be killed within a year. But how can this class of misfits kill a tentacled monster, capable of reaching Mach 20 speed, who may be the best teacher any of them have ever had?",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20755-dWrhs569YGUO.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20755-D4ipww9U8YkC.jpg",
+            "rating": 79,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Drama",
+                "Supernatural"
+            ],
+            "year": 2015
+        }
+    ],
+    "top_rated": [
+        {
+            "id": 154587,
+            "title": "Frieren: Beyond Journey’s End",
+            "description": "The adventure is over but life goes on for an elf mage just beginning to learn what living is all about. Elf mage Frieren and her courageous fellow adventurers have defeated the Demon King and brought peace to the land. But Frieren will long outlive the rest of her former party. How will she come to understand what life means to the people around her? Decades after their victory, the funeral of one her friends confronts Frieren with her own near immortality. Frieren sets out to fulfill the last wishes of her comrades and finds herself beginning a new adventure…\n<br><br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-ivXNJ23SM1xB.jpg",
+            "rating": 91,
+            "genres": [
+                "Adventure",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 2023
+        },
+        {
+            "id": 114129,
+            "title": "Gintama: THE VERY FINAL",
+            "description": "<i>Gintama: THE FINAL</i> is the 3rd and final film adaptation of the remainder of the Silver Soul arc and is the series finale.\n<br><br>\nTwo years have passed following the Tendoshuu's invasion of the O-Edo Central Terminal. Since then, the Yorozuya have gone their separate ways. Foreseeing Utsuro's return, Gintoki Sakata begins surveying Earth's ley lines for traces of the other man's Altana. After an encounter with the remnants of the Tendoshuu—who continue to press on in search of immortality—Gintoki returns to Edo.\n<br><br>\nLater, the regrouped Shinsengumi and Yorozuya begin an attack on the occupied Central Terminal. With the Altana harvested by the wreckage of the Tendoshuu's ship in danger of detonating, the Yorozuya and their allies fight their enemies while the safety of Edo—and the rest of the world—hangs in the balance. Fulfilling the wishes of their teacher, Shouyou Yoshida's former students unite and relive their pasts one final time in an attempt to save their futures.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114129-RLgSuh6YbeYx.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114129-ZsLDkdwaYeJY.jpg",
+            "rating": 91,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "year": 2021
+        },
+        {
+            "id": 20996,
+            "title": "Gintama Season 3",
+            "description": "Gintoki, Shinpachi, and Kagura return as the fun-loving but broke members of the Yorozuya team! Living in an alternate-reality Edo, where swords are prohibited and alien overlords have conquered Japan, they try to thrive on doing whatever work they can get their hands on. However, Shinpachi and Kagura still haven't been paid... Does Gin-chan really spend all that cash playing pachinko?\n\nMeanwhile, when Gintoki drunkenly staggers home one night, an alien spaceship crashes nearby. A fatally injured crew member emerges from the ship and gives Gintoki a strange, clock-shaped device, warning him that it is incredibly powerful and must be safeguarded. Mistaking it for his alarm clock, Gintoki proceeds to smash the device the next morning and suddenly discovers that the world outside his apartment has come to a standstill. With Kagura and Shinpachi at his side, he sets off to get the device fixed; though, as usual, nothing is ever that simple for the Yorozuya team.\n\nFilled with tongue-in-cheek humor and moments of heartfelt emotion, Gintama's fourth season finds Gintoki and his friends facing both their most hilarious misadventures and most dangerous crises yet.\n\n<br></br>(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20996-kBEGEGdeK1r7.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20996-gaNJKtjmy3Pf.jpg",
+            "rating": 90,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "year": 2015
+        },
+        {
+            "id": 171627,
+            "title": "Chainsaw Man – The Movie: Reze Arc",
+            "description": "Theatrical follow-up to <i>Chainsaw Man</i>.<br><br>\nDenji became “Chainsaw Man”, a boy with a devil’s heart, and is now part of Special Division 4’s devil hunters. After a date with Makima, the woman of his dreams, Denji takes shelter from the rain. There he meets Reze, a girl who works in a café.<br><br>\n\n(Source: MAPPA CHANNEL)\n\n",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171627-ZN9D7P46yHnw.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/171627-7esVHhgw69rn.jpg",
+            "rating": 90,
+            "genres": [
+                "Action",
+                "Drama",
+                "Horror",
+                "Romance",
+                "Supernatural"
+            ],
+            "year": 2025
+        },
+        {
+            "id": 5114,
+            "title": "Fullmetal Alchemist: Brotherhood",
+            "description": "\"In order for something to be obtained, something of equal value must be lost.\"\n<br><br>\nAlchemy is bound by this Law of Equivalent Exchange—something the young brothers Edward and Alphonse Elric only realize after attempting human transmutation: the one forbidden act of alchemy. They pay a terrible price for their transgression—Edward loses his left leg, Alphonse his physical body. It is only by the desperate sacrifice of Edward's right arm that he is able to affix Alphonse's soul to a suit of armor. Devastated and alone, it is the hope that they would both eventually return to their original bodies that gives Edward the inspiration to obtain metal limbs called \"automail\" and become a state alchemist, the Fullmetal Alchemist.\n<br><br>\nThree years of searching later, the brothers seek the Philosopher's Stone, a mythical relic that allows an alchemist to overcome the Law of Equivalent Exchange. Even with military allies Colonel Roy Mustang, Lieutenant Riza Hawkeye, and Lieutenant Colonel Maes Hughes on their side, the brothers find themselves caught up in a nationwide conspiracy that leads them not only to the true nature of the elusive Philosopher's Stone, but their country's murky history as well. In between finding a serial killer and racing against time, Edward and Alphonse must ask themselves if what they are doing will make them human again... or take away their humanity.\n<br><br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-nSWCgQlmOMtj.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5114-q0V5URebphSG.jpg",
+            "rating": 90,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 2009
+        },
+        {
+            "id": 182469,
+            "title": "ONE PIECE FAN LETTER",
+            "description": "To commemorate the 25th anniversary of the <i>ONE PIECE</i> TV anime: an animated adaptation of the \"ONE PIECE novel: Mugiwara Stories\". <br><br>\n\nTwo years after the Paramount War, the Straw Hats are about to reunite on the Sabaody Archipelago. At the same time, a girl who is head over heels for Nami is trying to hand a fan letter to her before the group leaves the island.<br><br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182469-JQ808NBPxmgn.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182469-obNr7bznMzN7.jpg",
+            "rating": 90,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy"
+            ],
+            "year": 2024
+        },
+        {
+            "id": 104578,
+            "title": "Attack on Titan Season 3 Part 2",
+            "description": "The battle to retake Wall Maria begins now! With Eren’s new hardening ability, the Scouts are confident they can seal the wall and take back Shiganshina District. If they succeed, Eren can finally unlock the secrets of the basement—and the world. But danger lies in wait as Reiner, Bertholdt, and the Beast Titan have plans of their own. Could this be humanity’s final battle for survival?<br>\n<br>\n(Source: Funimation)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104578-k61nx3LPjvgd.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104578-z7SadpYEuAsy.jpg",
+            "rating": 90,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Mystery"
+            ],
+            "year": 2019
+        },
+        {
+            "id": 189046,
+            "title": "Re:ZERO -Starting Life in Another World- Season 4",
+            "description": "The fourth season of <i>Re:Zero kara Hajimeru Isekai Seikatsu</i>.<br><br>\n\nTo save his stricken allies, Subaru faces a deadly desert to find the Sage at Pleiades Watchtower.<br><br>\n\n(Source: Crunchyroll News)\n\n<br><br>\n<i>Note: Lucca Comics & Games pre-screened episode 1 early on November 1, 2025, prior to the Japanese television broadcast on July 8th, 2026.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189046-yaHWtS5FII46.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189046-MDk2CaVuRWpb.jpg",
+            "rating": 89,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Fantasy",
+                "Psychological",
+                "Romance",
+                "Thriller"
+            ],
+            "year": 2026
+        },
+        {
+            "id": 124194,
+            "title": "Fruits Basket The Final Season",
+            "description": "After last season’s revelations, the Soma family moves forward, but the emotional chains that bind them are not easily broken. Unable to admit why she wants the cure, Tohru wrestles with the truth, aware that time is running out for someone close.\n<br><br>\nAnd a secret still lurks that could break another’s heart. But hope is not lost—a clue to the curse is found. Could their imprisonment’s end be near?<br><br>\n(Source: Funimation)<br><br>\n<i>Note: This season premiered on Funimation and AnimeLab on March 20, 2021. The Japanese broadcast started two weeks later on April 6, 2021.</i>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124194-TJlqMMR7BGn9.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124194-IB2X2IdALUYB.jpg",
+            "rating": 89,
+            "genres": [
+                "Comedy",
+                "Drama",
+                "Psychological",
+                "Romance",
+                "Slice of Life",
+                "Supernatural"
+            ],
+            "year": 2021
+        },
+        {
+            "id": 11061,
+            "title": "Hunter x Hunter (2011)",
+            "description": "A new adaption of the manga of the same name by Togashi Yoshihiro.<br><br>\nA Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father's path, he could one day reunite with him.<br><br>\nAfter becoming 12, Gon leaves his home and takes on the task of entering the Hunter exam, notorious for its low success rate and high probability of death to become an official Hunter. He befriends the revenge-driven Kurapika, the doctor-to-be Leorio and the rebellious ex-assassin Killua in the exam, with their friendship prevailing throughout the many trials and threats they come upon taking on the dangerous career of a Hunter.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-y5gsT1hoHuHw.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg",
+            "rating": 89,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy"
+            ],
+            "year": 2011
+        },
+        {
+            "id": 9253,
+            "title": "Steins;Gate",
+            "description": "Self-proclaimed mad scientist Okabe Rintarou lives in a small room in Akihabara, where he invents \"future gadgets\" with fellow lab members Shiina Mayuri, his air-headed childhood friend, and Hashida Itaru, an otaku hacker. The three pass the time by tinkering with their latest creation, a \"Phone Microwave\" that can be controlled through text messages. \n<br><br>\nThe lab members soon face a string of mysterious incidents that lead to a game-changing discovery: the Phone Microwave can send emails to the past and thus alter history. Adapted from the critically acclaimed visual novel by 5pb. and Nitroplus, Steins;Gate takes Okabe to the depths of scientific theory and human despair as he faces the dire consequences of changing the past.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-tIUXF2gfU8Sg.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n9253-JIhmKgBKsWUN.jpg",
+            "rating": 89,
+            "genres": [
+                "Drama",
+                "Psychological",
+                "Sci-Fi",
+                "Thriller"
+            ],
+            "year": 2011
+        },
+        {
+            "id": 21745,
+            "title": "Owarimonogatari Second Season",
+            "description": "Third and “Final Season” of the Monogatari Series, part 4/5. Contains the arcs Mayoi Hell, Hitagi Rendezvous, and Ougi Dark from the Owarimonogatari light novels.\n<br><br>\nKoyomi wakes up to see Mayoi Hachikuji before him, the girl who supposedly had gone to the afterlife. She tells Koyomi that they are currently in Avichi, the lowest levels of hell. Koyomi is dubious of how Mayoi knew about the exact timing of his death and which hell he would drop into, when Mayoi tells him that she was there to pick him up by the request of a certain individual.\n<br><br>\n(Source: Aniplex)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21745-VrhhJjZNdBXV.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21745-5psGR43Ck4RZ.jpg",
+            "rating": 89,
+            "genres": [
+                "Comedy",
+                "Mystery",
+                "Psychological",
+                "Romance",
+                "Supernatural"
+            ],
+            "year": 2017
+        },
+        {
+            "id": 15417,
+            "title": "Gintama Season 2 Part 2",
+            "description": "While Gintoki Sakata was away, the Yorozuya found themselves a new leader: Kintoki, Gintoki's golden-haired doppelganger. In order to regain his former position, Gintoki will need the help of those around him, a troubling feat when no one can remember him! Between Kintoki and Gintoki, who will claim the throne as the main character?\n<br><br>\nIn addition, Yorozuya make a trip back down to red-light district of Yoshiwara to aid an elderly courtesan in her search for her long-lost lover. Although the district is no longer in chains beneath the earth's surface, the trio soon learn of the tragic backstories of Yoshiwara's inhabitants that still haunt them. With flashback after flashback, this quest has Yorozuya witnessing everlasting love and protecting it as best they can with their hearts and souls.\n<br><br>\n<i>Gintama'</i>: Enchousen includes moments of action-packed intensity along with their usual lighthearted, slapstick humor for Gintoki and his friends.\n<br><br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15417-Uc2uNdWEixwi.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15417-0T9JCwFZM99Q.jpg",
+            "rating": 89,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "year": 2012
+        },
+        {
+            "id": 125367,
+            "title": "Kaguya-sama: Love is War -Ultra Romantic-",
+            "description": "The elite members of Shuchiin Academy's student council continue their competitive day-to-day antics. Council president Miyuki Shirogane clashes daily against vice-president Kaguya Shinomiya, each fighting tooth and nail to trick the other into confessing their romantic love. Kaguya struggles within the strict confines of her wealthy, uptight family, rebelling against her cold default demeanor as she warms to Shirogane and the rest of her friends.<br>\n<br>\nMeanwhile, council treasurer Yuu Ishigami suffers under the weight of his hopeless crush on Tsubame Koyasu, a popular upperclassman who helps to instill a new confidence in him. Miko Iino, the newest student council member, grows closer to the rule-breaking Ishigami while striving to overcome her own authoritarian moral code.<br>\n<br>\nAs love further blooms at Shuchiin Academy, the student council officers drag their outsider friends into increasingly comedic conflicts.<br>\n<br>\n(Source: MAL Rewrite)<br>\n<br>\n<i>Note: The first episode had an advanced screening on April 2, in both New York & Los Angeles.<br>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125367-1yuq9NFcQuLI.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125367-hGPJLSNfprO3.jpg",
+            "rating": 89,
+            "genres": [
+                "Comedy",
+                "Psychological",
+                "Romance",
+                "Slice of Life"
+            ],
+            "year": 2022
+        },
+        {
+            "id": 98478,
+            "title": "March comes in like a lion Season 2",
+            "description": "The second season of <i>3-gatsu no Lion</i>.<br>\n<br>\nNow in his second year of high school, Rei Kiriyama continues pushing through his struggles in the professional shogi world as well as his personal life. Surrounded by vibrant personalities at the shogi hall, the school club, and in the local community, his solitary shell slowly begins to crack. Among them are the three Kawamoto sisters—Akari, Hinata, and Momo—who forge an affectionate and familial bond with Rei. Through these ties, he realizes that everyone is burdened by their own emotional hardships and begins learning how to rely on others while supporting them in return.<br>\n<br>\nNonetheless, the life of a professional is not easy. Between tournaments, championships, and title matches, the pressure mounts as Rei advances through the ranks and encounters incredibly skilled opponents. As he manages his relationships with those who have grown close to him, the shogi player continues to search for the reason he plays the game that defines his career.\n",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98478-Yua5iL9zbrji.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98478-BDH64RDmBlr8.jpg",
+            "rating": 89,
+            "genres": [
+                "Drama",
+                "Slice of Life"
+            ],
+            "year": 2017
+        },
+        {
+            "id": 9969,
+            "title": "Gintama Season 2",
+            "description": "After a one-year hiatus, Shinpachi Shimura returns to Edo, only to stumble upon a shocking surprise: Gintoki and Kagura, his fellow Yorozuya members, have become completely different characters! Fleeing from the Yorozuya headquarters in confusion, Shinpachi finds that all the denizens of Edo have undergone impossibly extreme changes, in both appearance and personality. Most unbelievably, his sister Otae has married the Shinsengumi chief and shameless stalker Isao Kondou and is pregnant with their first child.\n<br><br>\nBewildered, Shinpachi agrees to join the Shinsengumi at Otae and Kondou's request and finds even more startling transformations afoot both in and out of the ranks of the the organization. However, discovering that Vice Chief Toushirou Hijikata has remained unchanged, Shinpachi and his unlikely Shinsengumi ally set out to return the city of Edo to how they remember it.\n<br><br>\nWith even more dirty jokes, tongue-in-cheek parodies, and shameless references, Gintama' follows the Yorozuya team through more of their misadventures in the vibrant, alien-filled world of Edo.\n<br><br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9969-0GaRABYVdUcH.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9969-pxE6nSzGGyUB.jpg",
+            "rating": 89,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "year": 2011
+        },
+        {
+            "id": 97889,
+            "title": "Gintama Season 4",
+            "description": "After joining the resistance against the bakufu, Gintoki and the gang are in hiding, along with Katsura and his Joui rebels. The Yorozuya is soon approached by Nobume Imai and two members of the Kiheitai, who explain that the Harusame pirates have turned against 7th Division Captain Kamui and their former ally Takasugi. The Kiheitai present Gintoki with a job: find Takasugi, who has been missing since his ship was ambushed in a Harusame raid. Nobume also makes a stunning revelation regarding the Tendoushuu, a secret organization pulling the strings of numerous factions, and their leader Utsuro, the shadowy figure with an uncanny resemblance to Gintoki's former teacher.<br>\n<br>\nHitching a ride on Sakamoto's space ship, the Yorozuya and Katsura set out for Rakuyou, Kagura's home planet, where the various factions have gathered and tensions are brewing. Long-held grudges, political infighting, and the Tendoushuu's sinister overarching plan finally culminate into a massive, decisive battle on Rakuyou.<br>\n<br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97889-ytqHdmus9wQi.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97889-z0Gm66dFW93U.jpg",
+            "rating": 88,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "year": 2017
+        },
+        {
+            "id": 116674,
+            "title": "BLEACH: Thousand-Year Blood War",
+            "description": "Was it all just a coincidence, or was it inevitable?\n<br><br>\nIchigo Kurosaki gained the powers of a Soul Reaper through a chance encounter. As a Substitute\nSoul Reaper, Ichigo became caught in the turmoil of the Soul Society, a place where deceased\nsouls gather. But with help from his friends, Ichigo overcame every challenge to become even\nstronger.\n<br><br>\nWhen new Soul Reapers and a new enemy appear in his hometown of Karakura, Ichigo jumps\nback into the battlefield with his Zanpakuto to help those in need. Meanwhile, the Soul Society\nis observing a sudden surge in the number of Hollows being destroyed in the World of the Living.\nThey also receive separate reports of residents in the Rukon District having gone missing. Finally,\nthe Seireitei, home of the Soul Reapers, comes under attack by a group calling themselves the\nWandenreich.\n<br><br>\nLed by Yhwach, the father of all Quincies, the Wandenreich declare war against the Soul Reapers\nwith the following message: <i>\"Five days from now, the Soul Society will be annihilated by the\nWandenreich.\"</i>\n<br><br>\nThe history and truth kept hidden by the Soul Reapers for a thousand long years is finally brought\nto light.\n<br><br>\nAll things must come to an end as Ichigo Kurosaki's final battle begins!",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116674-p3zK4PUX2Aag.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116674-l2YlIyJzvGSV.jpg",
+            "rating": 88,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Supernatural"
+            ],
+            "year": 2022
+        },
+        {
+            "id": 2921,
+            "title": "Tomorrow's Joe 2",
+            "description": "Yabuki Joe is left downhearted and hopeless after a certain tragic event. In attempt to put the past behind him, Joe leaves the gym behind and begins wandering. On his travels he comes across the likes of Wolf Kanagushi and Goromaki Gondo, men who unintentionally fan the dying embers inside him, leading him to putting his wanderings to an end. His return home puts Joe back on the path to boxing, but unknown to himself and his trainer, he now suffers deep-set issues holding him back from fighting. In attempt to quell those issues, Carlos Rivera, a world renowned boxer is invited from Venezuela to help Joe recover.\n",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2921-PxFepBRCGD0K.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2921-8cz7wULNyEgs.jpg",
+            "rating": 88,
+            "genres": [
+                "Action",
+                "Drama",
+                "Slice of Life",
+                "Sports"
+            ],
+            "year": 1980
+        },
+        {
+            "id": 176301,
+            "title": "The Apothecary Diaries Season 2",
+            "description": "Using her wit and vast knowledge of medicines and poisons alike, Maomao played a pivotal role in solving a series of mysteries and conspiracies that plagued the imperial court. Having recently come to terms with the secrets of her parents, she returns to fulfill her normal duties on behalf of the emperor's highest-ranking consorts. Maomao also works alongside the eunuch Jinshi to better the consorts' many ladies-in-waiting, including helping them learn to read.\n<br><br>\nHowever, with the arrival of a merchant caravan comes a new wave of intrigue. A pattern of strange coincidences involving the visitors and their wares unsettles Maomao, driving her to investigate the puzzling circumstances behind the convoy. As dangers from both outside and within threaten the balance between the imperial concubines, Maomao continues to utilize her cunning and medical expertise to keep the women safe from harm.\n<br><br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176301-TIGmldLffQGX.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/176301-GkuTF1YTT6b2.jpg",
+            "rating": 88,
+            "genres": [
+                "Drama",
+                "Mystery"
+            ],
+            "year": 2025
+        }
+    ],
+    "new": [
+        {
+            "id": 213628,
+            "title": "Kill Ao 2nd Season",
+            "description": "The second season of <i>Kill Ao</i>.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213628-YNzTvF1yEvoi.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Action",
+                "Comedy"
+            ],
+            "year": null
+        },
+        {
+            "id": 213580,
+            "title": "Shuumatsu no Valkyrie IV",
+            "description": "The fourth season of <i>Shuumatsu no Valkyrie</i>.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213580-ZQMYFBA1NYJG.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Supernatural"
+            ],
+            "year": null
+        },
+        {
+            "id": 213579,
+            "title": "Snowball Earth 2nd Season",
+            "description": "The second season of <i>Snowball Earth</i>. <br><br>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213579-oFSlp20lxqIV.png",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Action",
+                "Mecha",
+                "Sci-Fi"
+            ],
+            "year": null
+        },
+        {
+            "id": 213507,
+            "title": "Gokigenyou, Ikkyoku Ikaga?",
+            "description": "Sae, a high school girl who has trouble fitting in at the fancy \"ojou-sama\" private school, has a daily routine of playing mahjong on an app by herself during lunch break.\nShe was playing in secret, thinking that such a hobby is unfashionable...? But one day, Chisei, the most popular girl in class, finds out about it! The two girls with opposite personalities, who normally wouldn't have anything in common, become playmates through mahjong...?\n<BR><BR>\n(Source: Nico Nico Seiga, translated)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213507-x5veqThUFfJ1.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Comedy",
+                "Slice of Life"
+            ],
+            "year": null
+        },
+        {
+            "id": 213477,
+            "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 5th Season",
+            "description": "The fifth season of <i>Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</i>.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213477-4dkTR7XrCdXF.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Drama",
+                "Psychological"
+            ],
+            "year": null
+        },
+        {
+            "id": 213469,
+            "title": "RE:BEL ROBOTICA",
+            "description": "Robotica. Machines made in the very likeness of humankind.\n<br><br>\nRobotica. Beings that exist to serve humanity.\n<br><br>\nRobotica. Created to bring people happiness.\n<br><br>\nThe year is 2050, in a near-future Tokyo where dramatic leaps in information technology have promised every person a comfortable, content life within Shibuya. \n<br><br>\nEnter: A mysterious girl named Lily. Her very existence will shake the foundation of this world. <br><br>\n\n(Source: RE:BEL ROBOTICA Official Site, translated)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213469-y77MwjYEBraW.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Sci-Fi"
+            ],
+            "year": null
+        },
+        {
+            "id": 213396,
+            "title": "Higurashi no Naku Koro ni (Shin Anime)",
+            "description": "Everyone, welcome back.<br><br>\n<i>Note: Title and relations are provisional and subject to change.</i>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213396-OJFP3YkNcPGK.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Horror",
+                "Mystery",
+                "Psychological",
+                "Supernatural",
+                "Thriller"
+            ],
+            "year": null
+        },
+        {
+            "id": 213363,
+            "title": "Kanan-sama wa Akumade Choroi 2nd Season",
+            "description": "The second season of <i>Kanan-sama wa Akumade Choroi</i>.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213363-BKuA0JDOSjBH.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Comedy",
+                "Ecchi",
+                "Fantasy",
+                "Romance"
+            ],
+            "year": null
+        },
+        {
+            "id": 213338,
+            "title": "Jimoto Saikou!",
+            "description": "This is a story about girls that have never left their hometown, and despite the misfortunes they face, continue to say \"My hometown is the best!\"<br><br>\n(Source: MangaUpdates)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213338-0FDrGJy80s0W.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/213338-FMe1NkQnvjoc.jpg",
+            "rating": null,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Drama"
+            ],
+            "year": null
+        },
+        {
+            "id": 213316,
+            "title": "Nisemono no Renkinjutsushi",
+            "description": "In the city-state of Orihalconia, where alchemy and magic are deeply woven into everyday life, a reincarnated man named Paracelsus makes a modest living as an alchemist while concealing his powerful cheat skill.<br><br>\n\nOne day, however, he forms a contract with Nora, a sorceress slave girl, and encounters Coco, an elf who has been deprived of her limbs and all of her senses. From that moment, his life begins to change dramatically.<br><br>\n\nDetermined to save Coco, Paracelsus begins a small act of salvation from his humble workshop. But what starts as a personal mission soon grows into a conflict involving alchemy, sorcery, the cosmos, and even the gods themselves—<br><br>\n\nA story packed with \"everything fantasy has to offer\" is about to begin!<br><br>\n\n(Source: Official Website, translated)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213316-wbyH3WRK0qKB.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Comedy",
+                "Drama",
+                "Ecchi",
+                "Fantasy",
+                "Psychological",
+                "Romance",
+                "Slice of Life"
+            ],
+            "year": null
+        },
+        {
+            "id": 212955,
+            "title": "Mahouka Koukou no Rettousei Anime Part 2",
+            "description": "2nd half of the anime adaptation of <i>Mahouka Koukou no Rettousei's</i> light novels.<br>\n<br>\n\nNote: Title and relations are provisional and subject to change.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212955-bggFA6W9tnwA.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Action",
+                "Romance",
+                "Sci-Fi",
+                "Supernatural"
+            ],
+            "year": null
+        },
+        {
+            "id": 212876,
+            "title": "E, Shanai System Subete One Ope Shiteiru Watashi wo Kaiko desu ka?",
+            "description": "Once the sole engineer maintaining the systems at her company, Ai Sato is laid off without warning one day. (Apparently, the new CEO doesn't approve of cosplaying at work... Rude!) Moping won't pay the bills, so Ai sets out to find a new job—only to bump into an old friend, Kenta Suzuki, who just so happens to need a business partner. Together, they'll run a coding school for people truly in need.<br><br>\n\nTheir first student is of course...a salaryman hoping to improve his relationship with his family? Each new recruit that follows seems to be struggling under modern expectations: from a harried woman determined to prove her worth at work, to a jobless hopeful who wants to fulfill his mother's dream, and more. If Ai wants to bring out their best, she'll need to teach them a lesson in not just coding skills but also how to build up their confidence!<br><br>\n\n(Source: J-Novel Club)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212876-AVJJvQ5FR5GU.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Comedy",
+                "Drama"
+            ],
+            "year": null
+        },
+        {
+            "id": 212812,
+            "title": "Paradox Live THE ANIMATION Movie",
+            "description": "Theatrical follow-up to <i>Paradox Live THE ANIMATION</i>.\n<br><br>\n<i>Note: Title is provisional and subject to change.</i>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212812-ClgAw2ammA8s.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Drama",
+                "Music",
+                "Sci-Fi"
+            ],
+            "year": null
+        },
+        {
+            "id": 212667,
+            "title": "Hitozukiai ga Nigate na Miboujin no Yukionna-san to Noroi no Yubiwa",
+            "description": "The landlord finds a ring that can control yokai and proceeds to use it on a beautiful snow woman living in one of the apartments!<br><br>\n\n(Source: Irodori Comics)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212667-h1F7XAb1wHKm.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Ecchi",
+                "Supernatural"
+            ],
+            "year": null
+        },
+        {
+            "id": 212618,
+            "title": "Dorohedoro Season 3",
+            "description": "The third season of <i>Dorohedoro</i>.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212618-8qxOOnGuaVXV.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Fantasy",
+                "Horror",
+                "Mystery"
+            ],
+            "year": null
+        },
+        {
+            "id": 212539,
+            "title": "Takopii no Genzai: Arigatou, Mata Ashita",
+            "description": "Theatrical compilation of all six episodes of the anime series <i>Takopii no Genzai</i>, including newly added scenes.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212539-mZ3VbIErKBOr.png",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Drama",
+                "Psychological",
+                "Sci-Fi"
+            ],
+            "year": null
+        },
+        {
+            "id": 211710,
+            "title": "Go-toubun no Hanayome (Shinsaku OVA)",
+            "description": "This project brings to life—in animated form for the very first time—episodes from the original manga that were never featured in the previous anime series.<br><br>\n(Source: Official Website, translated)<br><br>\n<i>Note: Title and relations are provisional and subject to change.</i>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211710-Cmeq84reFr56.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Comedy",
+                "Drama",
+                "Romance",
+                "Slice of Life"
+            ],
+            "year": null
+        },
+        {
+            "id": 211709,
+            "title": "Go-toubun no Hanayome: Shunkashuutou",
+            "description": "<i>The Quintessential Quintuplets: Spring, Summer, Autumn, Winter</i> adapts the official sequel novel penned by Hajime Asano—a work that depicts \"the continuation of the original story\"—under the complete supervision of the original manga author, Negi Haruba.<br><br>\nSpanning the period from January of their third year of high school through December following their graduation, this series portrays a fresh year in the daily lives of the quintuplets.<br><br>\n(Source: Official Website, translated)<br><br>\n<i>Note: Title and relations are provisional and subject to change.</i>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211709-eLIMRJ4Twp8e.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Comedy",
+                "Drama",
+                "Romance",
+                "Slice of Life"
+            ],
+            "year": null
+        },
+        {
+            "id": 211538,
+            "title": "Hokuhokusei ni Kumo to Ike",
+            "description": "The story takes place in Iceland, at land’s end, 64°N.<br>\nKei Miyama is a 17-year-old with three secrets: he can talk to cars, he can’t handle pretty girls, and he works as a private investigator. One case has him searching for a beloved dog, another involves reuniting a woman with a man she fell for at first sight. And then comes a case that strikes close to home—searching for his own little brother.<br>\nTag along as this globe-spanning journey unfolds…\n<br><br>\n(Source: Kodansha USA)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211538-9DIgBfTibfZh.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Adventure",
+                "Mystery",
+                "Slice of Life"
+            ],
+            "year": null
+        },
+        {
+            "id": 211495,
+            "title": "Boushoku no Berserk 2nd Season",
+            "description": "The second season of <i>Boushoku no Berserk</i>.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211495-7y66zYmcVgc9.jpg",
+            "bannerImage": null,
+            "rating": null,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Fantasy",
+                "Romance"
+            ],
+            "year": null
+        }
+    ],
+    "favorites": [
+        {
+            "id": 16498,
+            "title": "Attack on Titan",
+            "description": "Several hundred years ago, humans were nearly exterminated by titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of titans.<br><br>\r\nFlash forward to the present and the city has not seen a titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a colossal titan that appears out of thin air. As the smaller titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single titan and take revenge for all of mankind.<br><br>\r\n(Source: MangaHelpers) ",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg",
+            "rating": 85,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Mystery"
+            ],
+            "year": 2013
+        },
+        {
+            "id": 101922,
+            "title": "Demon Slayer: Kimetsu no Yaiba",
+            "description": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon that massacred his family.<br>\n<br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WBsBl0ClmgYL.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101922-33MtJGsUSxga.jpg",
+            "rating": 83,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Fantasy",
+                "Supernatural"
+            ],
+            "year": 2019
+        },
+        {
+            "id": 113415,
+            "title": "JUJUTSU KAISEN",
+            "description": "A boy fights... for \"the right death.\"<br>\n<br>\nHardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Curses can only be exorcised by another Curse.<br>\n<br>\nItadori Yuji is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a friend who has been attacked by Curses, he eats the finger of the Double-Faced Specter, taking the Curse into his own soul. From then on, he shares one body with the Double-Faced Specter. Guided by the most powerful of sorcerers, Gojou Satoru, Itadori is admitted to the Tokyo Metropolitan Technical High School of Sorcery, an organization that fights the Curses... and thus begins the heroic tale of a boy who became a Curse to exorcise a Curse, a life from which he could never turn back.\n<br><br>\n(Source: Crunchyroll)<br>\n<br>\n<i>Note: The first episode received an early web premiere on September 19th, 2020. The regular TV broadcast started on October 3rd, 2020.</i>",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-jQBSkxWAAk83.jpg",
+            "rating": 84,
+            "genres": [
+                "Action",
+                "Drama",
+                "Supernatural"
+            ],
+            "year": 2020
+        },
+        {
+            "id": 1535,
+            "title": "Death Note",
+            "description": "Light Yagami is a genius high school student who is about to learn about life through a book of death. When a bored shinigami, a God of Death, named Ryuk drops a black notepad called a <i>Death Note</i>, Light receives power over life and death with the stroke of a pen. Determined to use this dark gift for the best, Light sets out to rid the world of evil… namely, the people he believes to be evil. Should anyone hold such power?<br>\n<br>\nThe consequences of Light’s actions will set the world ablaze.<br>\n<br>\n(Source: VIZ Media)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-kUgkcrfOrkUM.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1535.jpg",
+            "rating": 84,
+            "genres": [
+                "Mystery",
+                "Psychological",
+                "Supernatural",
+                "Thriller"
+            ],
+            "year": 2006
+        },
+        {
+            "id": 21459,
+            "title": "My Hero Academia",
+            "description": "What would the world be like if 80 percent of the population manifested extraordinary superpowers called “Quirks” at age four? Heroes and villains would be battling it out everywhere! Becoming a hero would mean learning to use your power, but where would you go to study? U.A. High's Hero Program of course! But what would you do if you were one of the 20 percent who were born Quirkless?<br><br>\n\nMiddle school student Izuku Midoriya wants to be a hero more than anything, but he hasn't got an ounce of power in him. With no chance of ever getting into the prestigious U.A. High School for budding heroes, his life is looking more and more like a dead end. Then an encounter with All Might, the greatest hero of them all gives him a chance to change his destiny…<br><br>\n\n(Source: VIZ Media)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-nYh85uj2Fuwr.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21459-yeVkolGKdGUV.jpg",
+            "rating": 77,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy"
+            ],
+            "year": 2016
+        },
+        {
+            "id": 11061,
+            "title": "Hunter x Hunter (2011)",
+            "description": "A new adaption of the manga of the same name by Togashi Yoshihiro.<br><br>\nA Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father's path, he could one day reunite with him.<br><br>\nAfter becoming 12, Gon leaves his home and takes on the task of entering the Hunter exam, notorious for its low success rate and high probability of death to become an official Hunter. He befriends the revenge-driven Kurapika, the doctor-to-be Leorio and the rebellious ex-assassin Killua in the exam, with their friendship prevailing throughout the many trials and threats they come upon taking on the dangerous career of a Hunter.",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-y5gsT1hoHuHw.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg",
+            "rating": 89,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy"
+            ],
+            "year": 2011
+        },
+        {
+            "id": 21087,
+            "title": "One-Punch Man",
+            "description": "Saitama has a rather peculiar hobby, being a superhero, but despite his heroic deeds and superhuman abilities, a shadow looms over his life. He's become much too powerful, to the point that every opponent ends up defeated with a single punch.\n<br><br>\nThe lack of challenge has driven him into a state of apathy, as he watches his life pass by having lost all enthusiasm, at least until he's unwillingly thrust in the role of being a mentor to the young and revenge-driven Genos.   \n\n",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-B5DHjqZ3kW4b.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21087-sHb9zUZFsHe1.jpg",
+            "rating": 83,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Sci-Fi",
+                "Supernatural"
+            ],
+            "year": 2015
+        },
+        {
+            "id": 21,
+            "title": "ONE PIECE",
+            "description": "Gold Roger was known as the Pirate King, the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the location of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece (which promises an unlimited amount of riches and fame), and quite possibly the most coveted of titles for the person who found it, the title of the Pirate King.<br><br>\nEnter Monkey D. Luffy, a 17-year-old boy that defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate who ransacks villages for fun, Luffy’s reason for being a pirate is one of pure wonder; the thought of an exciting adventure and meeting new and intriguing people, along with finding One Piece, are his reasons of becoming a pirate. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach One Piece.<br><br>\n<b>*This includes the following special episodes:</b><br>\n- Chopperman to the Rescue! Protect the TV Station by the Shore! (Episode 336)<br>\n- The Strongest Tag-Team! Luffy and Toriko's Hard Struggle! (Episode 492)<br>\n- Team Formation! Save Chopper (Episode 542)<br>\n- History's Strongest Collaboration vs. Glutton of the Sea (Episode 590)<br>\n- 20th Anniversary! Special Romance Dawn (Episode 907)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
+            "rating": 87,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 1999
+        },
+        {
+            "id": 20605,
+            "title": "Tokyo Ghoul",
+            "description": "The suspense horror/dark fantasy story is set in Tokyo, which is haunted by mysterious \"ghouls\" who are devouring humans. People are gripped by the fear of these ghouls whose identities are masked in mystery. An ordinary college student named Kaneki encounters Rize, a girl who is an avid reader like him, at the café he frequents. Little does he realize that his fate will change overnight.\n<br><br>\n(Source: Anime News Network)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20605-k665mVkSug8D.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20605-RCJ7M71zLmrh.jpg",
+            "rating": 76,
+            "genres": [
+                "Action",
+                "Drama",
+                "Horror",
+                "Mystery",
+                "Psychological",
+                "Supernatural"
+            ],
+            "year": 2014
+        },
+        {
+            "id": 20958,
+            "title": "Attack on Titan Season 2",
+            "description": "Eren Jaeger swore to wipe out every last Titan, but in a battle for his life he wound up becoming the thing he hates most. With his new powers, he fights for humanity's freedom facing the monsters that threaten his home. After a bittersweet victory against the Female Titan, Eren finds no time to rest—a horde of Titans is approaching Wall Rose and the battle for humanity continues!<br><br>\n\n(Source: Funimation)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20958-HuFJyr54Mmir.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20958-Y7eQdz9VENBD.jpg",
+            "rating": 85,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Mystery"
+            ],
+            "year": 2017
+        },
+        {
+            "id": 5114,
+            "title": "Fullmetal Alchemist: Brotherhood",
+            "description": "\"In order for something to be obtained, something of equal value must be lost.\"\n<br><br>\nAlchemy is bound by this Law of Equivalent Exchange—something the young brothers Edward and Alphonse Elric only realize after attempting human transmutation: the one forbidden act of alchemy. They pay a terrible price for their transgression—Edward loses his left leg, Alphonse his physical body. It is only by the desperate sacrifice of Edward's right arm that he is able to affix Alphonse's soul to a suit of armor. Devastated and alone, it is the hope that they would both eventually return to their original bodies that gives Edward the inspiration to obtain metal limbs called \"automail\" and become a state alchemist, the Fullmetal Alchemist.\n<br><br>\nThree years of searching later, the brothers seek the Philosopher's Stone, a mythical relic that allows an alchemist to overcome the Law of Equivalent Exchange. Even with military allies Colonel Roy Mustang, Lieutenant Riza Hawkeye, and Lieutenant Colonel Maes Hughes on their side, the brothers find themselves caught up in a nationwide conspiracy that leads them not only to the true nature of the elusive Philosopher's Stone, but their country's murky history as well. In between finding a serial killer and racing against time, Edward and Alphonse must ask themselves if what they are doing will make them human again... or take away their humanity.\n<br><br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-nSWCgQlmOMtj.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5114-q0V5URebphSG.jpg",
+            "rating": 90,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Fantasy"
+            ],
+            "year": 2009
+        },
+        {
+            "id": 20,
+            "title": "Naruto",
+            "description": "Naruto Uzumaki, a hyperactive and knuckle-headed ninja, lives in Konohagakure, the Hidden Leaf village. Moments prior to his birth, a huge demon known as the Kyuubi, the Nine-tailed Fox, attacked Konohagakure and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the 4th Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto. <br><br>\nShunned because of the presence of the Kyuubi inside him, Naruto struggles to find his place in the village. He strives to become the Hokage of Konohagakure, and he meets many friends and foes along the way. <br><br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20-dE6UHbFFg1A5.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20-HHxhPj5JD13a.jpg",
+            "rating": 80,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Drama",
+                "Fantasy",
+                "Supernatural"
+            ],
+            "year": 2002
+        },
+        {
+            "id": 11757,
+            "title": "Sword Art Online",
+            "description": "In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now...<br><br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11757-SxYDUzdr9rh2.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11757-TlEEV9weG4Ag.jpg",
+            "rating": 70,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy",
+                "Romance"
+            ],
+            "year": 2012
+        },
+        {
+            "id": 21519,
+            "title": "Your Name.",
+            "description": "Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture.<br>\n<br>\nOne day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another.<br>\n<br>\n<i>Kimi no Na wa.</i> revolves around Mitsuha and Taki's actions, which begin to have a dramatic impact on each other's lives, weaving them into a fabric held together by fate and circumstance.<br>\n<br>\n(Source: MAL Rewrite)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-SUo3ZQuCbYhJ.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21519-1ayMXgNlmByb.jpg",
+            "rating": 86,
+            "genres": [
+                "Drama",
+                "Romance",
+                "Supernatural"
+            ],
+            "year": 2016
+        },
+        {
+            "id": 20954,
+            "title": "A Silent Voice",
+            "description": "After transferring into a new school, a deaf girl, Shouko Nishimiya, is bullied by the popular Shouya Ishida. As Shouya continues to bully Shouko, the class turns its back on him. Shouko transfers and Shouya grows up as an outcast. Alone and depressed, the regretful Shouya finds Shouko to make amends.\n<br><br>\n(Source: Eleven Arts)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20954-sYRfE5jQRtSB.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20954-f30bHMXa5Qoe.jpg",
+            "rating": 88,
+            "genres": [
+                "Drama",
+                "Romance",
+                "Slice of Life"
+            ],
+            "year": 2016
+        },
+        {
+            "id": 99147,
+            "title": "Attack on Titan Season 3",
+            "description": "Eren and his companions in the 104th are assigned to the newly-formed Levi Squad, whose assignment is to keep Eren and Historia safe given Eren's newly-discovered power and Historia's knowledge and pedigree. Levi and Erwin have good reason to be concerned, because the priest of the Church that Hanji had hidden away was found tortured to death, making it clear that the Military Police are involved with the cover-up. Things get more harrowing when the MPs make a move on Erwin and the Levi Squad narrowly avoids capture. Eren is also having problems with his Titan transformation, and a deadly killer has been hired to secure Eren and Historia, one Levi knows all too well from his youth.<br>\n<br>\n(Source: Anime News Network)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99147-AiPDD8cwlCfi.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99147-HACsFVrynFf5.jpg",
+            "rating": 86,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Mystery"
+            ],
+            "year": 2018
+        },
+        {
+            "id": 21856,
+            "title": "My Hero Academia Season 2",
+            "description": "Taking off right after the last episode of the first season. The school is temporarily closed due to security. When U.A. restarts, it is announced that the highly anticipated School Sports Festival will soon be taking place. All classes: Hero, Support, General and Business will be participating. Tournaments all round will decide who is the top Hero in training.<br><br>(Source: Anime News Network)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21856-gutauxhWAwn6.png",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21856-wtSHgeHFmzdG.jpg",
+            "rating": 79,
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy"
+            ],
+            "year": 2017
+        },
+        {
+            "id": 110277,
+            "title": "Attack on Titan Final Season",
+            "description": "It’s been four years since the Scout Regiment reached the shoreline, and the world looks different now. Things are heating up as the fate of the Scout Regiment—and the people of Paradis—are determined at last. However, Eren is missing. Will he reappear before age-old tensions between Marleyans and Eldians result in the war of all wars?<br>\n<br>\n(Source: Crunchyroll)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110277-sKUNXAsWMNFw.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110277-iuGn6F5bK1U1.jpg",
+            "rating": 87,
+            "genres": [
+                "Action",
+                "Drama",
+                "Fantasy",
+                "Mystery"
+            ],
+            "year": 2020
+        },
+        {
+            "id": 101759,
+            "title": "The Promised Neverland",
+            "description": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as “Mom,” all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn—what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.\n<br><br>\n(Source: VIZ Media)",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101759-8UR7r9MNVpz2.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101759-MhlCoeqnODso.jpg",
+            "rating": 84,
+            "genres": [
+                "Drama",
+                "Fantasy",
+                "Horror",
+                "Mystery",
+                "Psychological",
+                "Thriller"
+            ],
+            "year": 2019
+        },
+        {
+            "id": 20755,
+            "title": "Assassination Classroom",
+            "description": "The students of class 3-E have a mission: kill their teacher before graduation. He has already destroyed the moon, and has promised to destroy the Earth if he can not be killed within a year. But how can this class of misfits kill a tentacled monster, capable of reaching Mach 20 speed, who may be the best teacher any of them have ever had?",
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20755-dWrhs569YGUO.jpg",
+            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20755-D4ipww9U8YkC.jpg",
+            "rating": 79,
+            "genres": [
+                "Action",
+                "Comedy",
+                "Drama",
+                "Supernatural"
+            ],
+            "year": 2015
+        }
+    ]
 }

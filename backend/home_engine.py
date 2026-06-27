@@ -7,6 +7,9 @@ class HomeEngine:
 
         cache = read_cache()
 
+        print("CACHE DATA:")
+        print(cache)
+
         if cache is None:
 
             return {

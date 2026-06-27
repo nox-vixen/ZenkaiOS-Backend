@@ -20,14 +20,13 @@ def build_cache():
 
         "new": get_anime(["START_DATE_DESC"], 20),
 
-        "favorites": get_anime(["FAVOURITES_DESC"], 20)
+        "favorites": get_anime(["POPULARITY_DESC"], 20)
 
     }
 
     os.makedirs("cache", exist_ok=True)
 
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
-
         json.dump(data, f, ensure_ascii=False, indent=4)
 
     return data
