@@ -1,5 +1,4 @@
-from backend.anilist import get_trending_anime
-
+from backend.anilist import get_trending_anime, get_anime
 
 class HomeService:
 
@@ -12,7 +11,14 @@ class HomeService:
                 "lastUpdated": None,
                 "items": featured
             },
-            "sections": []
+            "sections": [
+    {
+        "id": "trending_now",
+        "title": "Trending Now",
+        "viewAll": "/anime/trending",
+        "items": get_anime(["TRENDING_DESC"], 10)
+    }
+]
         }
 
 
