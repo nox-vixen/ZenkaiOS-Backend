@@ -99,3 +99,88 @@ def get_anime(sort, limit=10):
 def get_trending_anime(limit=5):
     return get_anime(["TRENDING_DESC"], limit)
 
+def get_anime_details(anime_id):
+
+    query = """
+    query($id:Int){
+
+      Media(id:$id,type:ANIME){
+
+        id
+
+        title{
+          romaji
+          english
+        }
+
+        description(asHtml:false)
+
+        averageScore
+
+        bannerImage
+
+        genres
+
+        episodes
+
+        duration
+
+        season
+
+        seasonYear
+
+        status
+
+        format
+
+        source
+
+        coverImage{
+          extraLarge
+        }
+
+      }
+
+    }
+    """
+
+    data = graphql(
+        query,
+        {
+            "id": anime_id
+        }
+    )
+
+    media = data["Media"]
+
+    return {
+
+        "id": media["id"],
+
+        "title": media["title"]["english"] or media["title"]["romaji"],
+
+        "description": media["description"] or "",
+
+        "coverImage": media["coverImage"]["extraLarge"],
+
+        "bannerImage": media["bannerImage"],
+
+        "rating": media["averageScore"],
+
+        "genres": media["genres"],
+
+        "episodes": media["episodes"],
+
+        "duration": media["duration"],
+
+        "season": media["season"],
+
+        "year": media["seasonYear"],
+
+        "status": media["status"],
+
+        "format": media["format"],
+
+        "source": media["source"]
+
+    }
