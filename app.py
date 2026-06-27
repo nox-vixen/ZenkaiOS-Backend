@@ -35,8 +35,3 @@ def debug_v1():
         "members": dir(v1)
     }
 
-from backend.anilist import get_trending_anime
-
-@app.route("/debug/anilist")
-def debug_anilist():
-    return get_trending_anime(5)
