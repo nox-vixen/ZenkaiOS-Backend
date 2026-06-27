@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify
 
-from backend.home_service import home_service
+from backend.home_engine import home_engine
 
 home_bp = Blueprint(
     "home",
@@ -12,5 +12,5 @@ home_bp = Blueprint(
 def home():
 
     return jsonify(
-        home_service.get_home()
+        home_engine.build()
     )
