@@ -7,6 +7,7 @@ from routes.search import search_bp
 from routes.watch import watch_bp
 
 from backend.anilist import get_trending_anime
+from backend.cache_builder import build_cache
 
 app = Flask(__name__)
 CORS(app)
@@ -33,7 +34,15 @@ def watch(anime_id):
 def debug_anilist():
     return get_trending_anime(5)
 
+@app.route("/build-cache")
+def build_cache_route():
 
+    build_cache()
+
+    return {
+        "status": "success",
+        "message": "Cache rebuilt successfully."
+    }
 if __name__ == "__main__":
     app.run(
         host="0.0.0.0",

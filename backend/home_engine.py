@@ -1,35 +1,36 @@
-from backend.anilist import get_trending_anime, get_anime
+from backend.cache_reader import read_cache
+
 
 class HomeEngine:
 
     def build(self):
 
-        featured = get_trending_anime(5)
+        cache = read_cache()
+
+        if cache is None:
+
+            return {
+                "featured": {
+                    "items": []
+                },
+                "sections": []
+            }
 
         featured_items = []
 
-        for anime in featured:
+        for anime in cache["featured"]:
 
             featured_items.append({
 
                 "id": anime["id"],
-
                 "title": anime["title"],
-
                 "description": anime["description"],
-
                 "bannerImage": anime["bannerImage"],
-
                 "coverImage": anime["coverImage"],
-
                 "rating": anime["rating"],
-
                 "year": anime["year"],
-
                 "genres": anime["genres"],
-
                 "watchNow": f"/watch/{anime['id']}",
-
                 "myList": False
 
             })
@@ -37,42 +38,47 @@ class HomeEngine:
         return {
 
             "featured": {
-
                 "items": featured_items
-
             },
+
             "sections": [
-    {
-        "id": "trending",
-        "title": "Trending Now",
-        "viewAll": "/anime/trending",
-        "items": get_anime(["TRENDING_DESC"], 10)
-    },
-    {
-        "id": "popular",
-        "title": "Most Popular",
-        "viewAll": "/anime/popular",
-        "items": get_anime(["POPULARITY_DESC"], 10)
-    },
-    {
-        "id": "top_rated",
-        "title": "Top Rated",
-        "viewAll": "/anime/top",
-        "items": get_anime(["SCORE_DESC"], 10)
-    },
-    {
-        "id": "new",
-        "title": "Newest Releases",
-        "viewAll": "/anime/new",
-        "items": get_anime(["START_DATE_DESC"], 10)
-    },
-    {
-        "id": "favorites",
-        "title": "Fan Favorites",
-        "viewAll": "/anime/favorites",
-        "items": get_anime(["FAVOURITES_DESC"], 10)
-    }
-]
+
+                {
+                    "id": "trending",
+                    "title": "Trending Now",
+                    "viewAll": "/anime/trending",
+                    "items": cache["trending"]
+                },
+
+                {
+                    "id": "popular",
+                    "title": "Most Popular",
+                    "viewAll": "/anime/popular",
+                    "items": cache["popular"]
+                },
+
+                {
+                    "id": "top_rated",
+                    "title": "Top Rated",
+                    "viewAll": "/anime/top",
+                    "items": cache["top_rated"]
+                },
+
+                {
+                    "id": "new",
+                    "title": "Newest Releases",
+                    "viewAll": "/anime/new",
+                    "items": cache["new"]
+                },
+
+                {
+                    "id": "favorites",
+                    "title": "Fan Favorites",
+                    "viewAll": "/anime/favorites",
+                    "items": cache["favorites"]
+                }
+
+            ]
 
         }
 
