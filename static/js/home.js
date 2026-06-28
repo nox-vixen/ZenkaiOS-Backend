@@ -1,3 +1,41 @@
+window.onerror = function(message, source, line, column, error){
+
+document.body.innerHTML = `
+<div style="
+padding:20px;
+background:#000;
+color:#fff;
+font-family:monospace;
+white-space:pre-wrap;
+word-break:break-word;
+">
+
+<h2>JavaScript Error</h2>
+
+<b>Message:</b>
+${message}
+
+<br><br>
+
+<b>Line:</b>
+${line}
+
+<br><br>
+
+<b>Column:</b>
+${column}
+
+<br><br>
+
+<b>Source:</b>
+${source}
+
+</div>
+`;
+
+return true;
+
+};
 
 showSkeleton();
 
