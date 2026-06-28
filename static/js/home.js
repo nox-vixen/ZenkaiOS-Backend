@@ -95,7 +95,7 @@ notificationBtn.onclick = () => console.log("Notifications");
 
 profileAvatar.onclick = () => location.href = "/profile";
 
-const header = document.getElementById("topHeader");
+const header = document.getElementById("header");
 
 let lastScroll = 0;
 
