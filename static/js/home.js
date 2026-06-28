@@ -384,6 +384,11 @@ loadHome();
 
 let currentHero = 0;
 
+let heroTimer = null;
+
+let resumeTimer = null;
+
+let isTouchingHero = false;
 
 function showHero(index){
 
@@ -447,6 +452,30 @@ showHero(currentHero);
 
 }
 
+function stopHeroSlider(){
+
+if(heroTimer){
+
+clearInterval(heroTimer);
+
+heroTimer = null;
+
+}
+
+}
+
+function resumeHeroSlider(){
+
+clearTimeout(resumeTimer);
+
+resumeTimer = setTimeout(()=>{
+
+startHeroSlider();
+
+},3000);
+
+}
+
 heroSlider.addEventListener("scroll",()=>{
 
 const slides =
@@ -469,6 +498,46 @@ dots[index].classList.add("active");
 currentHero=index;
 
 }
+
+});
+
+heroSlider.addEventListener("touchstart",()=>{
+
+isTouchingHero = true;
+
+stopHeroSlider();
+
+});
+
+heroSlider.addEventListener("touchend",()=>{
+
+isTouchingHero = false;
+
+resumeHeroSlider();
+
+});
+
+heroSlider.addEventListener("mousedown",()=>{
+
+stopHeroSlider();
+
+});
+
+heroSlider.addEventListener("mouseup",()=>{
+
+resumeHeroSlider();
+
+});
+
+heroSlider.addEventListener("mouseenter",()=>{
+
+stopHeroSlider();
+
+});
+
+heroSlider.addEventListener("mouseleave",()=>{
+
+resumeHeroSlider();
 
 });
 
