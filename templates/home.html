@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
 
 <title>ZenkaiOS</title>
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-<link rel="stylesheet"
+<link
+rel="stylesheet"
 href="{{ url_for('static', filename='css/home.css') }}">
+
 </head>
 
 <body>
 
-<header id="topHeader">
+<!-- ===========================
+HEADER
+=========================== -->
+
+<header id="header">
 
 <div class="header-left">
 
-<button id="menuBtn" class="circle-btn">
+<button id="menuBtn">
 <i class="fa-solid fa-bars"></i>
 </button>
 
@@ -28,7 +39,7 @@ href="{{ url_for('static', filename='css/home.css') }}">
 
 <h1>Zenkai<span>OS</span></h1>
 
-<p>ゼンカイOS</p>
+<p>Anime Streaming</p>
 
 </div>
 
@@ -36,26 +47,32 @@ href="{{ url_for('static', filename='css/home.css') }}">
 
 <div class="header-right">
 
-<button id="searchBtn" class="circle-btn">
-<i class="fa-solid fa-search"></i>
+<button id="searchBtn">
+<i class="fa-solid fa-magnifying-glass"></i>
 </button>
 
-<button id="notificationBtn" class="circle-btn">
+<button id="notificationBtn">
 <i class="fa-regular fa-bell"></i>
 </button>
 
 <img
 id="profileAvatar"
-src="https://i.pravatar.cc/100"
+src="https://i.pravatar.cc/120"
 alt="Profile">
 
 </div>
 
 </header>
 
-<main id="homePage">
+<!-- ===========================
+MAIN
+=========================== -->
 
-<section id="heroBanner">
+<main id="main">
+
+<!-- HERO -->
+
+<section id="heroSection">
 
 <div id="heroSlider"></div>
 
@@ -69,13 +86,15 @@ alt="Profile">
 
 </section>
 
+<!-- TOP PICK -->
+
 <section id="topPickSection">
 
-<h2 class="block-title">
+<h2 class="section-title">
 
 <i class="fa-solid fa-crown"></i>
 
-Top Picks Today
+Top Pick
 
 </h2>
 
@@ -83,15 +102,68 @@ Top Picks Today
 
 </section>
 
-<section id="homeSections">
+<!-- HOME ROWS -->
 
-</section>
+<div id="homeSections">
+
+</div>
 
 </main>
 
-<nav id="bottomNav"></nav>
+<!-- ===========================
+BOTTOM NAVIGATION
+=========================== -->
 
-<script src="{{ url_for('static', filename='js/home.js') }}"></script>
+<nav id="bottomNav">
+
+<button class="navItem active">
+
+<i class="fa-solid fa-house"></i>
+
+<span>Home</span>
+
+</button>
+
+<button class="navItem">
+
+<i class="fa-solid fa-tv"></i>
+
+<span>Anime</span>
+
+</button>
+
+<button class="navItem">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<span>Search</span>
+
+</button>
+
+<button class="navItem">
+
+<i class="fa-solid fa-bookmark"></i>
+
+<span>Library</span>
+
+</button>
+
+<button class="navItem profile-nav">
+
+<img
+class="nav-avatar"
+src="https://i.pravatar.cc/120">
+
+<span>Me</span>
+
+</button>
+
+</nav>
+
+<script
+src="{{ url_for('static', filename='js/home.js') }}">
+</script>
 
 </body>
+
 </html>
