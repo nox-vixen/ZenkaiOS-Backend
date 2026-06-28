@@ -221,33 +221,37 @@ function buildTopPick(anime){
 
 document.getElementById("topPickCard").innerHTML=`
 
-<div class="top-pick">
+<div class="top-pick-v3">
 
-<img src="${anime.bannerImage || anime.coverImage}">
+<img
+class="top-pick-image"
+src="${anime.bannerImage || anime.coverImage}">
 
-<div class="top-pick-overlay">
+<div class="top-pick-shade"></div>
 
-<div class="top-pick-badges">
+<div class="top-pick-content">
 
-<span class="rating-badge">
+<div class="top-pick-meta">
+
+<span class="meta-rating">
 
 ⭐ ${anime.rating ?? "N/A"}
 
 </span>
 
-<span class="year-badge">
+<span class="meta-year">
 
-${anime.year ?? "Unknown"}
+${anime.year ?? ""}
 
 </span>
 
 </div>
 
-<div class="top-pick-title">
+<h2 class="top-pick-name">
 
 ${anime.title}
 
-</div>
+</h2>
 
 <div class="top-pick-genres">
 
@@ -255,16 +259,16 @@ ${(anime.genres || []).slice(0,3).map(g=>`<span>${g}</span>`).join("")}
 
 </div>
 
-<div class="top-pick-desc">
+<p class="top-pick-description">
 
-${(anime.description || "").substring(0,170)}...
+${anime.description || ""}
 
-</div>
+</p>
 
-<div class="top-pick-buttons">
+<div class="top-pick-actions">
 
 <button
-class="pick-btn"
+class="watch-btn"
 onclick="openAnime(${anime.id})">
 
 <i class="fa-solid fa-play"></i>
@@ -273,8 +277,7 @@ Watch Now
 
 </button>
 
-<button
-class="pick-btn secondary">
+<button class="list-btn">
 
 <i class="fa-solid fa-plus"></i>
 
