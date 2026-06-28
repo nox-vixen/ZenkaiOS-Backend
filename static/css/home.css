@@ -592,22 +592,18 @@ gap:8px;
 }
 
 /* ===========================
-   HERO BORDER RUNNER
+   HERO PREMIUM BORDER
 =========================== */
 
 #heroBorderRunner{
 
 position:absolute;
-
-inset:-2px;
-
-border-radius:30px;
-
+inset:0;
+border-radius:28px;
+padding:2px;
 pointer-events:none;
-
 overflow:hidden;
-
-z-index:30;
+z-index:20;
 
 }
 
@@ -616,57 +612,45 @@ z-index:30;
 content:"";
 
 position:absolute;
+inset:-150%;
 
-width:140px;
+background:conic-gradient(
 
-height:140px;
+from 0deg,
 
-background:
-radial-gradient(circle,
-rgba(168,85,247,.95) 0%,
-rgba(168,85,247,.45) 35%,
-transparent 72%);
+transparent 0deg,
+transparent 300deg,
 
-filter:blur(10px);
+#a855f7 325deg,
+#d8b4fe 340deg,
+#ffffff 350deg,
+#a855f7 360deg
 
-animation:borderRunner 5s linear infinite;
+);
 
-}
-
-@keyframes borderRunner{
-
-0%{
-
-top:-70px;
-left:-70px;
+animation:heroBorderRotate 3.5s linear infinite;
 
 }
 
-25%{
+#heroBorderRunner::after{
 
-top:-70px;
-left:calc(100% - 70px);
+content:"";
 
-}
+position:absolute;
 
-50%{
+inset:2px;
 
-top:calc(100% - 70px);
-left:calc(100% - 70px);
+border-radius:26px;
 
-}
-
-75%{
-
-top:calc(100% - 70px);
-left:-70px;
+background:#111;
 
 }
 
-100%{
+@keyframes heroBorderRotate{
 
-top:-70px;
-left:-70px;
+to{
+
+transform:rotate(360deg);
 
 }
 
