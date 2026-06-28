@@ -361,6 +361,8 @@ padding:18px 16px 0;
 
 position:relative;
 
+isolation:isolate;
+
 height:245px;
 
 border-radius:28px;
@@ -603,7 +605,7 @@ border-radius:28px;
 padding:2px;
 pointer-events:none;
 overflow:hidden;
-z-index:20;
+z-index:-1;
 
 }
 
