@@ -139,6 +139,7 @@ const data=await response.json();
 buildHero(data.featured.items);
 buildTopPick(data.featured.items[0]);
 buildSections(data.sections);
+startHeroSlider();
 
 }
 
@@ -378,45 +379,47 @@ ${cards}
 loadHome().then(() => {
     startHeroSlider();
 });
+
 // ==========================
 // HERO AUTO SLIDER
 // ==========================
 
 let currentHero = 0;
+
 const heroProgressFill =
 document.getElementById("heroProgressFill");
 
-function startHeroSlider(){
+let heroTimer = null;
 
-setInterval(()=>{
+function startHeroProgress(){
 
-heroProgressFill.style.transition="none";
-heroProgressFill.style.width="0%";
+heroProgressFill.style.transition = "none";
+heroProgressFill.style.width = "0%";
 
-setTimeout(()=>{
+requestAnimationFrame(()=>{
 
-heroProgressFill.style.transition="width 5s linear";
-heroProgressFill.style.width="100%";
+heroProgressFill.style.transition = "width 5s linear";
+heroProgressFill.style.width = "100%";
 
-},50);
-
-currentHero++;
-
-const slides=document.querySelectorAll(".hero-slide");
-
-const dots=document.querySelectorAll("#heroIndicators span");
-
-if(slides.length===0) return;
-
-if(currentHero>=slides.length){
-
-currentHero=0;
+});
 
 }
 
+function showHero(index){
+
+const slides =
+document.querySelectorAll(".hero-slide");
+
+const dots =
+document.querySelectorAll("#heroIndicators span");
+
+if(!slides.length) return;
+
+currentHero = index;
+
 heroSlider.scrollTo({
 
-left:currentHero*heroSlider.clientWidth,
+left:index*heroSlider.clientWidth,
 
 behavior:"smooth"
 
@@ -424,37 +427,67 @@ behavior:"smooth"
 
 dots.forEach(dot=>dot.classList.remove("active"));
 
-if(dots[currentHero]){
+if(dots[index]){
 
-dots[currentHero].classList.add("active");
+dots[index].classList.add("active");
 
 }
+
+startHeroProgress();
+
+}
+
+function startHeroSlider(){
+
+if(heroTimer){
+
+clearInterval(heroTimer);
+
+}
+
+showHero(0);
+
+heroTimer = setInterval(()=>{
+
+const slides =
+document.querySelectorAll(".hero-slide");
+
+if(!slides.length) return;
+
+currentHero++;
+
+if(currentHero>=slides.length){
+
+currentHero=0;
+
+}
+
+showHero(currentHero);
 
 },5000);
 
 }
 
-startHeroSlider();
-
 heroSlider.addEventListener("scroll",()=>{
 
-const index=Math.round(
+const slides =
+document.querySelectorAll(".hero-slide");
 
-heroSlider.scrollLeft/
+if(!slides.length) return;
 
-heroSlider.clientWidth
+const index =
+Math.round(heroSlider.scrollLeft/heroSlider.clientWidth);
 
-);
-
-currentHero=index;
-
-const dots=document.querySelectorAll("#heroIndicators span");
+const dots =
+document.querySelectorAll("#heroIndicators span");
 
 dots.forEach(dot=>dot.classList.remove("active"));
 
 if(dots[index]){
 
 dots[index].classList.add("active");
+
+currentHero=index;
 
 }
 
