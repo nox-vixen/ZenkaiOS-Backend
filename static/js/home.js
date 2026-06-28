@@ -257,22 +257,25 @@ ${(anime.genres || []).slice(0,3).map(g=>`<span>${g}</span>`).join("")}
 
 <p>
 
-${anime.description || ""}
+${(anime.description || "").replace(/<[^>]*>/g,"").trim()}
 
 </p>
 
 <div class="top-pick-icons">
 
-<button
-onclick="openAnime(${anime.id})">
+<button onclick="openAnime(${anime.id})">
 
 <i class="fa-solid fa-play"></i>
+
+<span>Watch Now</span>
 
 </button>
 
 <button>
 
 <i class="fa-solid fa-plus"></i>
+
+<span>My List</span>
 
 </button>
 
