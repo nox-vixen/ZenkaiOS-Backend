@@ -861,21 +861,27 @@ rgba(0,0,0,.96)
 
 position:absolute;
 
-left:10px;
+top:12px;
 
-top:10px;
+left:12px;
 
-padding:5px 10px;
+padding:6px 12px;
 
 border-radius:999px;
 
-background:var(--primary);
+background:rgba(0,0,0,.72);
 
-font-size:10px;
+backdrop-filter:blur(14px);
 
-font-weight:700;
+border:1px solid rgba(255,255,255,.12);
 
-z-index:3;
+font-size:12px;
+
+font-weight:800;
+
+color:#fff;
+
+z-index:8;
 
 }
 
@@ -885,25 +891,27 @@ z-index:3;
 
 position:absolute;
 
-right:10px;
+top:12px;
 
-top:10px;
+right:12px;
 
-padding:5px 10px;
+padding:6px 12px;
 
 border-radius:999px;
 
-background:
+background:#8b5cf6;
 
-rgba(0,0,0,.55);
-
-backdrop-filter:blur(12px);
-
-font-size:10px;
+font-size:11px;
 
 font-weight:700;
 
-z-index:3;
+color:#fff;
+
+z-index:8;
+
+box-shadow:
+
+0 6px 16px rgba(139,92,246,.45);
 
 }
 
@@ -999,17 +1007,21 @@ overflow:hidden;
 
 height:100%;
 
-background:
+border-radius:999px;
 
-linear-gradient(
+background:linear-gradient(
 
 90deg,
 
 #8b5cf6,
 
-#a78bfa
+#c084fc
 
 );
+
+box-shadow:
+
+0 0 10px rgba(168,85,247,.55);
 
 }
 
@@ -1023,15 +1035,13 @@ padding-top:12px;
 
 .anime-title{
 
-font-size:14px;
+font-size:15px;
 
 font-weight:700;
 
-line-height:20px;
+line-height:1.35;
 
-height:40px;
-
-overflow:hidden;
+color:#fff;
 
 display:-webkit-box;
 
@@ -1039,21 +1049,27 @@ display:-webkit-box;
 
 -webkit-box-orient:vertical;
 
+overflow:hidden;
+
+min-height:42px;
+
 }
 
 .anime-meta{
-
-margin-top:7px;
 
 display:flex;
 
 align-items:center;
 
-gap:7px;
+gap:8px;
 
-font-size:12px;
+font-size:13px;
 
-color:var(--text-muted);
+font-weight:600;
+
+color:#bdbdbd;
+
+margin-top:4px;
 
 }
 
