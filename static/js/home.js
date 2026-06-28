@@ -376,9 +376,7 @@ ${cards}
 
 }
 
-loadHome().then(() => {
-    startHeroSlider();
-});
+loadHome();
 
 // ==========================
 // HERO AUTO SLIDER
@@ -386,24 +384,6 @@ loadHome().then(() => {
 
 let currentHero = 0;
 
-const heroProgressFill =
-document.getElementById("heroProgressFill");
-
-let heroTimer = null;
-
-function startHeroProgress(){
-
-heroProgressFill.style.transition = "none";
-heroProgressFill.style.width = "0%";
-
-requestAnimationFrame(()=>{
-
-heroProgressFill.style.transition = "width 5s linear";
-heroProgressFill.style.width = "100%";
-
-});
-
-}
 
 function showHero(index){
 
@@ -433,7 +413,6 @@ dots[index].classList.add("active");
 
 }
 
-startHeroProgress();
 
 }
 
@@ -498,35 +477,9 @@ function openAnime(id){
 window.location.href="/watch?id="+id;
 
 }
-// ==========================
-// BOTTOM NAVIGATION
-// ==========================
 
-const bottomNav = document.getElementById("bottomNav");
 
-bottomNav.innerHTML = `
-<a class="nav-item active" href="/">
-    <i class="fa-solid fa-house"></i>
-    <span>Home</span>
-</a>
 
-<a class="nav-item" href="/anime">
-    <i class="fa-solid fa-tv"></i>
-    <span>Anime</span>
-</a>
-
-<a class="nav-item" href="/mylist">
-    <i class="fa-solid fa-bookmark"></i>
-    <span>My List</span>
-</a>
-
-<a class="nav-item profile-nav" href="/profile">
-    <img
-        src="https://i.pravatar.cc/100"
-        class="nav-avatar">
-    <span>Profile</span>
-</a>
-`;
 
 // ==========================
 // Bottom Navigation
