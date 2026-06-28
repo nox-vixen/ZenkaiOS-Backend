@@ -227,31 +227,58 @@ document.getElementById("topPickCard").innerHTML=`
 
 <div class="top-pick-overlay">
 
+<div class="top-pick-badges">
+
+<span class="rating-badge">
+
+⭐ ${anime.rating ?? "N/A"}
+
+</span>
+
+<span class="year-badge">
+
+${anime.year ?? "Unknown"}
+
+</span>
+
+</div>
+
 <div class="top-pick-title">
 
 ${anime.title}
 
 </div>
 
+<div class="top-pick-genres">
+
+${(anime.genres || []).slice(0,3).map(g=>`<span>${g}</span>`).join("")}
+
+</div>
+
 <div class="top-pick-desc">
 
-${(anime.description || "No description available.").substring(0,120)}...
+${(anime.description || "").substring(0,170)}...
 
 </div>
 
 <div class="top-pick-buttons">
 
-<button class="pick-btn"
-
+<button
+class="pick-btn"
 onclick="openAnime(${anime.id})">
 
-▶ Watch
+<i class="fa-solid fa-play"></i>
+
+Watch Now
 
 </button>
 
-<button class="pick-btn secondary">
+<button
+class="pick-btn secondary">
 
-＋ My List
+<i class="fa-solid fa-plus"></i>
+
+My List
 
 </button>
 
