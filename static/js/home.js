@@ -37,7 +37,6 @@ return true;
 
 };
 
-showSkeleton();
 
 function showSkeleton(){
 
@@ -128,6 +127,8 @@ const heroSlider=document.getElementById("heroSlider");
 const heroIndicators=document.getElementById("heroIndicators");
 
 const homeSections=document.getElementById("homeSections");
+
+showSkeleton();
 
 async function loadHome(){
 
