@@ -133,7 +133,7 @@ ${anime.title}
 
 <div class="hero-description">
 
-${anime.description.substring(0,120)}...
+${(anime.description || "No description available.").substring(0,120)}...
 
 </div>
 
@@ -195,7 +195,7 @@ ${anime.title}
 
 <div class="top-pick-desc">
 
-${anime.description.substring(0,120)}...
+${(anime.description || "No description available.").substring(0,120)}...
 
 </div>
 
