@@ -591,6 +591,87 @@ gap:8px;
 
 }
 
+/* ===========================
+   HERO BORDER RUNNER
+=========================== */
+
+#heroBorderRunner{
+
+position:absolute;
+
+inset:-2px;
+
+border-radius:30px;
+
+pointer-events:none;
+
+overflow:hidden;
+
+z-index:30;
+
+}
+
+#heroBorderRunner::before{
+
+content:"";
+
+position:absolute;
+
+width:140px;
+
+height:140px;
+
+background:
+radial-gradient(circle,
+rgba(168,85,247,.95) 0%,
+rgba(168,85,247,.45) 35%,
+transparent 72%);
+
+filter:blur(10px);
+
+animation:borderRunner 5s linear infinite;
+
+}
+
+@keyframes borderRunner{
+
+0%{
+
+top:-70px;
+left:-70px;
+
+}
+
+25%{
+
+top:-70px;
+left:calc(100% - 70px);
+
+}
+
+50%{
+
+top:calc(100% - 70px);
+left:calc(100% - 70px);
+
+}
+
+75%{
+
+top:calc(100% - 70px);
+left:-70px;
+
+}
+
+100%{
+
+top:-70px;
+left:-70px;
+
+}
+
+}
+
 /* ==========================================
 HOME SECTIONS
 ========================================== */
