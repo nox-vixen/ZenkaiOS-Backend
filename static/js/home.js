@@ -174,16 +174,6 @@ heroIndicators.innerHTML+=`
 
 });
 
-heroProgressFill.style.transition="none";
-heroProgressFill.style.width="0%";
-
-setTimeout(()=>{
-
-heroProgressFill.style.transition="width 5s linear";
-
-heroProgressFill.style.width="100%";
-
-},100);
 
 }
 
@@ -346,7 +336,9 @@ ${cards}
 
 }
 
-loadHome();
+loadHome().then(() => {
+    startHeroSlider();
+});
 // ==========================
 // HERO AUTO SLIDER
 // ==========================
@@ -374,6 +366,8 @@ currentHero++;
 const slides=document.querySelectorAll(".hero-slide");
 
 const dots=document.querySelectorAll("#heroIndicators span");
+
+if(slides.length===0) return;
 
 if(currentHero>=slides.length){
 
