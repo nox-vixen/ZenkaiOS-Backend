@@ -753,11 +753,12 @@ CARD
 
 flex:0 0 auto;
 
-width:145px;
 
 scroll-snap-align:start;
 
-transition:.28s;
+width:170px;
+flex-shrink:0;
+transition:.25s ease;	
 
 cursor:pointer;
 
@@ -777,19 +778,16 @@ transform:scale(.96);
 
 .anime-poster{
 
-position:relative;
-
-width:145px;
-
-height:205px;
-
-border-radius:22px;
-
+width:170px;
+height:245px;
+border-radius:20px;
 overflow:hidden;
+position:relative;
+box-shadow:
+0 10px 25px rgba(0,0,0,.45);
 
 background:#111;
 
-box-shadow:var(--shadow-medium);
 
 }
 
@@ -1894,5 +1892,16 @@ color:#fff;
 .top-pick-icons button:hover{
 
 transform:translateY(-2px);
+
+}
+.anime-card:active{
+
+transform:scale(.97);
+
+}
+
+.anime-card:hover{
+
+transform:translateY(-6px);
 
 }
