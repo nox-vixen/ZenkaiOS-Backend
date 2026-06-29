@@ -2,7 +2,10 @@ from flask import Blueprint
 from flask import render_template
 from flask import jsonify
 
-from backend.anilist import get_anime_details
+from backend.anilist import (
+    get_anime_details,
+    get_anime_characters
+)
 
 details_bp = Blueprint(
     "details",
@@ -22,4 +25,14 @@ def details_api(anime_id):
 
     return jsonify(
         get_anime_details(anime_id)
+    )
+
+
+@details_bp.route("/api/details/<int:anime_id>/characters")
+def characters_api(anime_id):
+
+    return jsonify(
+
+        get_anime_characters(anime_id)
+
     )

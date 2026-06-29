@@ -205,3 +205,88 @@ def get_anime_details(anime_id):
         "trailer": media.get("trailer")
 
     }
+
+
+def get_anime_characters(anime_id):
+
+    query = """
+    query($id:Int){
+
+      Media(id:$id,type:ANIME){
+
+        characters(sort:ROLE,page:1,perPage:20){
+
+          edges{
+
+            node{
+
+              id
+
+              name{
+
+                full
+
+              }
+
+              image{
+
+                large
+
+              }
+
+            }
+
+            voiceActors(language:JAPANESE){
+
+              name{
+
+                full
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+    """
+
+    data = graphql(
+
+        query,
+
+        {
+
+            "id": anime_id
+
+        }
+
+    )
+
+    result = []
+
+    edges = data["Media"]["characters"]["edges"]
+
+    for edge in edges:
+
+        actor = ""
+
+        if edge["voiceActors"]:
+
+            actor = edge["voiceActors"][0]["name"]["full"]
+
+        result.append({
+
+            "name": edge["node"]["name"]["full"],
+
+            "image": edge["node"]["image"]["large"],
+
+            "voiceActor": actor
+
+        })
+
+    return result

@@ -66,6 +66,9 @@ document.getElementById("infoFormat");
 const infoDuration =
 document.getElementById("infoDuration");
 
+const characterCarousel =
+document.getElementById("characterCarousel");
+
 // ===================================
 
 backButton.onclick=()=>history.back();
@@ -73,6 +76,8 @@ backButton.onclick=()=>history.back();
 // ===================================
 
 loadAnime();
+
+loadCharacters();
 
 // ===================================
 
@@ -313,3 +318,73 @@ readMoreButton.addEventListener("click",()=>{
     }
 
 });
+
+// ===================================
+// LOAD CHARACTERS
+// ===================================
+
+async function loadCharacters(){
+
+    try{
+
+        const res = await fetch(
+
+            `/api/details/${animeId}/characters`
+
+        );
+
+        if(!res.ok){
+
+            throw new Error("Failed");
+
+        }
+
+        const characters = await res.json();
+
+        characterCarousel.innerHTML = "";
+
+        characters.forEach(character=>{
+
+            characterCarousel.innerHTML += `
+
+            <div class="characterCard">
+
+                <img
+
+                    class="characterImage"
+
+                    src="${character.image}"
+
+                    alt="${character.name}"
+
+                    loading="lazy">
+
+                <div class="characterName">
+
+                    ${character.name}
+
+                </div>
+
+                <div class="voiceActor">
+
+                    ${character.voiceActor || "Unknown Voice Actor"}
+
+                </div>
+
+            </div>
+
+            `;
+
+        });
+
+    }catch(e){
+
+        console.error(e);
+
+        characterCarousel.innerHTML =
+
+        "<p style='color:#888'>Unable to load characters.</p>";
+
+    }
+
+}
