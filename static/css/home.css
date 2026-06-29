@@ -1986,79 +1986,89 @@ pointer-events:none;
 
 }
 
+/* ==========================================
+   PREMIUM FLOATING DOCK
+========================================== */
+
 .bottom-dock{
 
-width:calc(100% - 28px);
-max-width:520px;
+position:fixed;
 
-height:76px;
+left:50%;
+bottom:18px;
+
+transform:translateX(-50%);
+
+width:calc(100% - 24px);
+max-width:460px;
+
+height:74px;
 
 display:flex;
 align-items:center;
-justify-content:space-between;
+justify-content:space-evenly;
 
 padding:0 18px;
 
-border-radius:30px;
+background:rgba(18,18,18,.78);
 
-background:rgba(18,18,18,.72);
-
-backdrop-filter:blur(22px);
--webkit-backdrop-filter:blur(22px);
+backdrop-filter:blur(24px);
+-webkit-backdrop-filter:blur(24px);
 
 border:1px solid rgba(255,255,255,.08);
+
+border-radius:28px;
 
 box-shadow:
 0 12px 40px rgba(0,0,0,.45);
 
-pointer-events:auto;
-
-position:relative;
-
-overflow:visible;
+z-index:9999;
 
 }
+
+/* ====================== */
 
 .dock-item{
 
 flex:1;
 
 display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
-gap:4px;
 
-border:none;
-background:none;
+flex-direction:column;
+
+align-items:center;
+
+justify-content:center;
+
+gap:4px;
 
 color:#8d8d8d;
 
+transition:.30s;
+
 cursor:pointer;
 
-transition:.35s ease;
+user-select:none;
 
 }
 
 .dock-item i{
 
-font-size:22px;
+font-size:24px;
 
-transition:.35s;
+transition:.30s;
 
 }
 
 .dock-item span{
 
-font-size:11px;
+font-size:12px;
 
 font-weight:600;
 
-opacity:.85;
-
-transition:.35s;
-
 }
+
+/* ====================== */
 
 .dock-item.active{
 
@@ -2072,41 +2082,37 @@ color:#a855f7;
 
 transform:translateY(-2px);
 
-text-shadow:0 0 12px rgba(168,85,247,.7);
-
 }
+
+/* ====================== */
 
 .dock-center{
 
-position:absolute;
+width:74px;
+height:74px;
 
-left:50%;
-
-transform:translateX(-50%) translateY(-20px);
-
-width:66px;
-height:66px;
-
-border:none;
-
-border-radius:50%;
-
-background:linear-gradient(
-135deg,
-#a855f7,
-#7c3aed
-);
-
-color:#fff;
+margin-top:-42px;
 
 display:flex;
+
 align-items:center;
 justify-content:center;
 
-font-size:26px;
+border-radius:50%;
+
+background:
+linear-gradient(
+135deg,
+#b46bff,
+#8b3dff
+);
 
 box-shadow:
-0 10px 30px rgba(168,85,247,.45);
+0 0 30px rgba(168,85,247,.6);
+
+color:white;
+
+font-size:30px;
 
 cursor:pointer;
 
@@ -2116,135 +2122,12 @@ transition:.35s;
 
 .dock-center:hover{
 
-transform:
-translateX(-50%)
-translateY(-24px)
-scale(1.05);
-
-}
-.dock-indicator{
-
-position:absolute;
-
-top:12px;
-
-left:18px;
-
-width:62px;
-
-height:52px;
-
-border-radius:20px;
-
-background:rgba(168,85,247,.18);
-
-border:1px solid rgba(168,85,247,.28);
-
-box-shadow:
-
-0 0 18px rgba(168,85,247,.35);
-
-transition:
-
-transform .45s cubic-bezier(.22,1,.36,1);
-
-pointer-events:none;
-
-z-index:0;
+transform:scale(1.08);
 
 }
 
-.dock-item{
+.dock-center:active{
 
-position:relative;
-
-z-index:2;
-
-}
-/*==================================
-CENTER BUTTON ANIMATION
-==================================*/
-
-.dock-center{
-
-animation:centerBreath 2.8s ease-in-out infinite;
-
-overflow:hidden;
-
-}
-
-@keyframes centerBreath{
-
-0%{
-
-box-shadow:
-0 10px 30px rgba(168,85,247,.35);
-
-transform:
-translateX(-50%)
-translateY(-20px)
-scale(1);
-
-}
-
-50%{
-
-box-shadow:
-0 14px 40px rgba(168,85,247,.65);
-
-transform:
-translateX(-50%)
-translateY(-22px)
-scale(1.06);
-
-}
-
-100%{
-
-box-shadow:
-0 10px 30px rgba(168,85,247,.35);
-
-transform:
-translateX(-50%)
-translateY(-20px)
-scale(1);
-
-}
-
-}
-
-/*==================================
-RIPPLE
-==================================*/
-
-.dock-ripple{
-
-position:absolute;
-
-width:10px;
-
-height:10px;
-
-border-radius:50%;
-
-background:rgba(255,255,255,.35);
-
-transform:scale(0);
-
-animation:ripple .55s ease-out;
-
-pointer-events:none;
-
-}
-
-@keyframes ripple{
-
-to{
-
-transform:scale(12);
-
-opacity:0;
-
-}
+transform:scale(.92);
 
 }

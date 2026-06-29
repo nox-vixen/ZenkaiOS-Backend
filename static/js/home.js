@@ -578,22 +578,12 @@ window.location.href="/watch?id="+id;
 
 }
 
+// =====================================
+// PREMIUM BOTTOM DOCK
+// =====================================
 
-
-
-// ==========================
-// Bottom Navigation
-// ==========================
-
-// ==========================
-// DOCK ANIMATION
-// ==========================
-
-const dockItems =
-document.querySelectorAll(".dock-item");
-
-const dockIndicator =
-document.querySelector(".dock-indicator");
+const dockItems = document.querySelectorAll(".dock-item");
+const dockCenter = document.querySelector(".dock-center");
 
 dockItems.forEach(item=>{
 
@@ -603,88 +593,34 @@ dockItems.forEach(i=>i.classList.remove("active"));
 
 item.classList.add("active");
 
-const x=item.offsetLeft;
+const page=item.dataset.page;
 
-dockIndicator.animate(
+switch(page){
 
-[
-{
+case "home":
+window.location="/";
+break;
 
-transform:
+case "anime":
+window.location="/anime";
+break;
 
-dockIndicator.style.transform ||
+case "library":
+window.location="/mylist";
+break;
 
-"translateX(0px)"
-
-},
-
-{
-
-transform:
-
-`translateX(${x}px)`
-
-}
-
-],
-
-{
-
-duration:450,
-
-easing:
-
-"cubic-bezier(.22,1,.36,1)",
-
-fill:"forwards"
+case "profile":
+window.location="/profile";
+break;
 
 }
 
-);
-
-dockIndicator.style.transform=
-
-`translateX(${x}px)`;
-
 });
 
 });
-// ==========================
-// PREMIUM RIPPLE
-// ==========================
 
-document.querySelectorAll(".dock-item,.dock-center")
+dockCenter.addEventListener("click",()=>{
 
-.forEach(button=>{
-
-button.addEventListener("click",(e)=>{
-
-const ripple=
-
-document.createElement("span");
-
-ripple.className="dock-ripple";
-
-const rect=
-
-button.getBoundingClientRect();
-
-ripple.style.left=
-
-(e.clientX-rect.left)+"px";
-
-ripple.style.top=
-
-(e.clientY-rect.top)+"px";
-
-button.appendChild(ripple);
-
-setTimeout(()=>{
-
-ripple.remove();
-
-},550);
-
-});
+window.location="/watch";
 
 });
