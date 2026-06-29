@@ -99,3 +99,15 @@ def debug_classes():
     return {
         "classes": dir(mb)
     }
+
+
+import inspect
+from moviebox_api.v1 import DownloadableTVSeriesFilesDetail
+
+@stream_bp.route("/debug/download_signature")
+def debug_download_signature():
+    return jsonify({
+        "signature": str(
+            inspect.signature(DownloadableTVSeriesFilesDetail)
+        )
+    })
