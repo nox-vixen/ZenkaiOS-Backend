@@ -51,3 +51,42 @@ def tv_signature():
             )
         )
     })
+
+
+from backend.session import get_session
+from moviebox_api.v1 import Search, SubjectType
+import asyncio
+
+
+@stream_bp.route("/debug/episodes/<path:title>")
+def debug_episodes(title):
+
+    session = get_session()
+
+    search = Search(
+        session=session,
+        query=title,
+        subject_type=SubjectType.ALL,
+        page=1,
+        per_page=1
+    )
+
+    result = asyncio.run(
+        search.get_content_model()
+    )
+
+    if not result.items:
+        return {"error": "Not found"}, 404
+
+    anime = result.items[0]
+
+    details = TVSeriesDetails(
+        anime,
+        session
+    )
+
+    data = asyncio.run(
+        details.get_content_model()
+    )
+
+    return data.model_dump_json()
