@@ -178,3 +178,17 @@ def debug_download(title):
     )
 
     return data.model_dump_json()
+
+
+@stream_bp.route("/debug/download_signature2")
+def debug_download_signature2():
+
+    import inspect
+
+    return jsonify({
+        "signature": str(
+            inspect.signature(
+                DownloadableTVSeriesFilesDetail.get_content_model
+            )
+        )
+    })
