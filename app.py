@@ -45,6 +45,16 @@ def build_cache_route():
         "status": "success",
         "message": "Cache rebuilt successfully."
     }
+
+@app.route("/routes")
+def show_routes():
+    return {
+        "routes": sorted(
+            str(rule)
+            for rule in app.url_map.iter_rules()
+        )
+    }
+
 if __name__ == "__main__":
     app.run(
         host="0.0.0.0",
