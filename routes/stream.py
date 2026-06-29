@@ -142,8 +142,8 @@ def debug_download(title, season, episode):
 # Download / Episode Resources
 # ============================================================
 
-@stream_bp.route("/debug/download/<path:title>")
-def debug_download(title):
+@stream_bp.route("/debug/download/<path:title>/<int:season>/<int:episode>")
+def debug_download(title, season, episode):
 
     session = get_session()
 
@@ -172,16 +172,17 @@ def debug_download(title):
     )
 
     data = asyncio.run(
-        download.get_content_model()
+        download.get_content_model(
+            season=season,
+            episode=episode
+        )
     )
 
-    return data.model_dump_json()
+    return jsonify(data.model_dump())
 
 
 @stream_bp.route("/debug/download_signature2")
 def debug_download_signature2():
-
-    import inspect
 
     return jsonify({
         "signature": str(
