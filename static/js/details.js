@@ -117,38 +117,32 @@ document.getElementById("heroBanner");
 const posterSection =
 document.getElementById("posterSection");
 
-window.addEventListener(
+// ===================================
+// Ultra Smooth Cinematic Hero
+// ===================================
 
-"scroll",
+let ticking = false;
 
-()=>{
+window.addEventListener("scroll", () => {
 
-const y=
+    if (!ticking) {
 
-window.scrollY;
+        window.requestAnimationFrame(() => {
 
-if(y<180){
+            const y = window.scrollY;
 
-heroBanner.style.height=
+            bannerImage.style.transform =
+                `translateY(${y * 0.18}px) scale(1.08)`;
 
-340-y+"px";
+            posterSection.style.transform =
+                `translateY(${-Math.min(y * 0.18, 35)}px)`;
 
-posterSection.style.transform=
+            ticking = false;
 
-`translateY(${-y*0.25}px)`;
+        });
 
-}else{
+        ticking = true;
 
-heroBanner.style.height=
+    }
 
-"160px";
-
-posterSection.style.transform=
-
-"translateY(-45px)";
-
-}
-
-}
-
-);
+});
