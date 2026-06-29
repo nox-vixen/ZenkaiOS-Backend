@@ -69,6 +69,12 @@ document.getElementById("infoDuration");
 const characterCarousel =
 document.getElementById("characterCarousel");
 
+const episodeList =
+document.getElementById("episodeList");
+
+const viewAllEpisodes =
+document.getElementById("viewAllEpisodes");
+
 // ===================================
 
 backButton.onclick=()=>history.back();
@@ -257,6 +263,8 @@ anime.duration
 ? anime.duration + " min"
 : "Unknown";
 
+loadEpisodes(anime.episodes);
+
 }catch(e){
 
 animeTitle.innerText = "Failed to load anime.";
@@ -384,6 +392,60 @@ async function loadCharacters(){
         characterCarousel.innerHTML =
 
         "<p style='color:#888'>Unable to load characters.</p>";
+
+    }
+
+}
+
+// ===================================
+// LOAD EPISODES
+// ===================================
+
+function loadEpisodes(totalEpisodes){
+
+    episodeList.innerHTML = "";
+
+    const count =
+
+    Math.min(totalEpisodes || 12,12);
+
+    for(let i=1;i<=count;i++){
+
+        episodeList.innerHTML += `
+
+        <div class="episodeCard">
+
+            <div class="episodePlay">
+
+                <i class="fa-solid fa-play"></i>
+
+            </div>
+
+            <div class="episodeContent">
+
+                <div class="episodeTitle">
+
+                    Episode ${i}
+
+                </div>
+
+                <div class="episodeMeta">
+
+                    24 min
+
+                </div>
+
+            </div>
+
+        </div>
+
+        `;
+
+    }
+
+    if((totalEpisodes||0)<=12){
+
+        viewAllEpisodes.style.display="none";
 
     }
 
