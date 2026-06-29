@@ -28,4 +28,28 @@ class MovieBoxService:
         )
 
 
+def first_match(self, query):
+
+        result = self.search(query)
+
+        if not result.items:
+
+            return None
+
+        item = result.items[0]
+
+        return {
+
+            "subjectId": item.subjectId,
+
+            "detailPath": item.detailPath,
+
+            "subjectType": item.subjectType,
+
+            "title": item.title,
+
+            "cover": str(item.cover.url)
+
+        }
+
 moviebox_service = MovieBoxService()

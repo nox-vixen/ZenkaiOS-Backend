@@ -5,13 +5,19 @@ from backend.moviebox_service import moviebox_service
 stream_bp = Blueprint("stream", __name__)
 
 
-@stream_bp.route("/debug/moviebox")
-def debug_moviebox():
+@stream_bp.route("/api/moviebox/search/<path:title>")
+def moviebox_search(title):
 
-    result = moviebox_service.search("One Piece")
+    result = moviebox_service.first_match(title)
 
-    return jsonify(
-    result.model_dump(
-        mode="json"
-    )
-)
+    if result is None:
+
+        return jsonify({
+            "success": False,
+            "message": "Anime not found"
+        }), 404
+
+    return jsonify({
+        "success": True,
+        "data": result
+    })
