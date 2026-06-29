@@ -62,7 +62,17 @@ placeholder="Search anime...">
 
 <section id="recentSection">
 
+<div class="section-title">
+
 <h2>Recent Searches</h2>
+
+<button id="clearHistory">
+
+<i class="fa-solid fa-trash"></i>
+
+</button>
+
+</div>
 
 <div id="recentList"></div>
 
@@ -70,7 +80,11 @@ placeholder="Search anime...">
 
 <section id="trendingSection">
 
-<h2>Trending</h2>
+<h2>
+<i class="fa-solid fa-fire"
+style="color:#a855f7;margin-right:8px;"></i>
+Trending
+</h2>
 
 <div id="trendingList"></div>
 
@@ -94,10 +108,79 @@ placeholder="Search anime...">
 
 <div id="filterSheet"></div>
 
-<div id="voiceSheet"></div>
+<div id="voiceSheet">
 
-<script
-src="{{ url_for('static', filename='js/search.js') }}">
+<div class="voice-content">
+
+<div class="voice-ring">
+
+<div class="voice-core">
+
+<i class="fa-solid fa-microphone"></i>
+
+</div>
+
+</div>
+
+<h2 id="voiceStatus">
+
+Listening...
+
+</h2>
+
+<p id="voiceResult">
+
+Speak the anime name
+
+</p>
+
+<button id="cancelVoice">
+
+Cancel
+
+</button>
+
+</div>
+
+</div>
+
+<div id="confirmPopup">
+
+<div class="confirm-card">
+
+<h3 id="confirmTitle">
+
+Delete?
+
+</h3>
+
+<p id="confirmText">
+
+Are you sure?
+
+</p>
+
+<div class="confirm-buttons">
+
+<button id="confirmCancel">
+
+Cancel
+
+</button>
+
+<button id="confirmYes">
+
+Yes
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/search.js') }}">
 </script>
 
 </body>

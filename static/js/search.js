@@ -135,22 +135,34 @@ recentList.innerHTML="";
 if(recent.length===0){
 
 recentList.innerHTML=
-
 "<p style='color:#777'>No recent searches</p>";
 
 return;
 
 }
 
-recent.forEach(item=>{
+recent.slice(0,5).forEach(item=>{
 
 recentList.innerHTML+=`
 
-<div class="genre-chip"
+<div class="recent-item">
 
+<div class="recent-left"
 onclick="quickSearch('${item}')">
 
-🕒 ${item}
+<i class="fa-solid fa-clock-rotate-left"></i>
+
+<span>${item}</span>
+
+</div>
+
+<button
+class="recent-arrow"
+onclick="quickSearch('${item}')">
+
+<i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+</button>
 
 </div>
 
@@ -170,15 +182,42 @@ trending.forEach(item=>{
 
 trendingList.innerHTML+=`
 
-<div class="genre-chip"
+<div
+class="trending-chip"
 
 onclick="quickSearch('${item}')">
 
-🔥 ${item}
+${item}
 
 </div>
 
 `;
+
+const chip=trendingList.lastElementChild;
+
+let timer;
+
+chip.addEventListener("touchstart",()=>{
+
+timer=setTimeout(()=>{
+
+deleteTrending(new Event("hold"),item);
+
+},700);
+
+});
+
+chip.addEventListener("touchend",()=>{
+
+clearTimeout(timer);
+
+});
+
+chip.addEventListener("touchmove",()=>{
+
+clearTimeout(timer);
+
+});
 
 });
 
@@ -315,3 +354,203 @@ resultGrid.innerHTML=
 }
 
 }
+const popup =
+document.getElementById("confirmPopup");
+
+const popupTitle =
+document.getElementById("confirmTitle");
+
+const popupText =
+document.getElementById("confirmText");
+
+const popupYes =
+document.getElementById("confirmYes");
+
+document.getElementById("confirmCancel").onclick=()=>{
+
+popup.style.display="none";
+
+};
+
+document.getElementById("clearHistory").onclick=()=>{
+
+popup.style.display="flex";
+
+popupTitle.innerText="Clear History";
+
+popupText.innerText=
+"Delete all recent searches?";
+
+popupYes.onclick=()=>{
+
+recent=[];
+
+localStorage.removeItem("zenkai_recent");
+
+renderRecent();
+
+popup.style.display="none";
+
+};
+
+};
+// ==========================
+// DELETE SINGLE TRENDING
+// ==========================
+
+function deleteTrending(event,text){
+
+event.preventDefault();
+
+popup.style.display="flex";
+
+popupTitle.innerText="Delete Trending";
+
+popupText.innerText=`Remove "${text}" from Trending?`;
+
+popupYes.onclick=()=>{
+
+const index=trending.indexOf(text);
+
+if(index>-1){
+
+trending.splice(index,1);
+
+renderTrending();
+
+}
+
+popup.style.display="none";
+
+};
+
+}
+// ==========================
+// VOICE SEARCH
+// ==========================
+
+const voiceBtn =
+document.getElementById("voiceBtn");
+
+const voiceSheet =
+document.getElementById("voiceSheet");
+
+const cancelVoice =
+document.getElementById("cancelVoice");
+
+const voiceStatus =
+document.getElementById("voiceStatus");
+
+const voiceResult =
+document.getElementById("voiceResult");
+
+let recognition=null;
+
+const SpeechRecognition=
+window.SpeechRecognition||
+window.webkitSpeechRecognition;
+
+if(SpeechRecognition){
+
+recognition=
+new SpeechRecognition();
+
+recognition.lang="en-US";
+
+recognition.interimResults=true;
+
+recognition.maxAlternatives=1;
+
+recognition.continuous=false;
+
+voiceBtn.onclick=()=>{
+
+voiceSheet.style.display="flex";
+
+voiceStatus.innerText="Listening...";
+
+voiceResult.innerText="";
+
+recognition.start();
+
+};
+
+recognition.onresult=(event)=>{
+
+let transcript="";
+
+for(
+
+let i=event.resultIndex;
+
+i<event.results.length;
+
+i++
+
+){
+
+transcript+=
+
+event.results[i][0].transcript;
+
+}
+
+voiceResult.innerText=transcript;
+
+if(event.results[event.results.length-1].isFinal){
+
+searchInput.value=transcript;
+
+clearSearch.style.display="block";
+
+searchAnime(transcript);
+
+saveRecent(transcript);
+
+}
+
+};
+
+recognition.onend=()=>{
+
+setTimeout(()=>{
+
+voiceSheet.style.display="none";
+
+},600);
+
+};
+
+recognition.onerror=()=>{
+
+voiceStatus.innerText="Voice unavailable";
+
+setTimeout(()=>{
+
+voiceSheet.style.display="none";
+
+},1000);
+
+};
+
+}else{
+
+voiceBtn.onclick=()=>{
+
+alert("Voice search is not supported on this browser.");
+
+};
+
+}
+
+cancelVoice.onclick=()=>{
+
+voiceSheet.style.display="none";
+
+if(recognition){
+
+recognition.stop();
+
+}
+
+};
