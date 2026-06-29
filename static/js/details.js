@@ -42,6 +42,30 @@ document.getElementById("trailerCard");
 const trailerImage =
 document.getElementById("trailerImage");
 
+const infoScore =
+document.getElementById("infoScore");
+
+const infoEpisodes =
+document.getElementById("infoEpisodes");
+
+const infoStudio =
+document.getElementById("infoStudio");
+
+const infoSource =
+document.getElementById("infoSource");
+
+const infoSeason =
+document.getElementById("infoSeason");
+
+const infoStatus =
+document.getElementById("infoStatus");
+
+const infoFormat =
+document.getElementById("infoFormat");
+
+const infoDuration =
+document.getElementById("infoDuration");
+
 // ===================================
 
 backButton.onclick=()=>history.back();
@@ -147,6 +171,86 @@ if(anime.trailer && anime.trailer.id){
     trailerSection.style.display = "none";
 
 }
+
+// ===================================
+// ANIME INFORMATION
+// ===================================
+
+infoScore.innerText =
+anime.rating
+? anime.rating + "/100"
+: "N/A";
+
+infoEpisodes.innerText =
+anime.episodes || "Unknown";
+
+infoStudio.innerText =
+anime.studios && anime.studios.length
+? anime.studios.join(", ")
+: "Unknown";
+
+infoSource.innerText =
+anime.source || "Unknown";
+
+infoSeason.innerText =
+anime.season && anime.year
+? `${anime.season} ${anime.year}`
+: (anime.year || "Unknown");
+
+const status =
+anime.status || "Unknown";
+
+let statusClass = "";
+
+switch(status.toUpperCase()){
+
+case "RELEASING":
+
+statusClass = "status-releasing";
+
+break;
+
+case "FINISHED":
+
+statusClass = "status-finished";
+
+break;
+
+case "NOT_YET_RELEASED":
+
+statusClass = "status-notyet";
+
+break;
+
+case "HIATUS":
+
+statusClass = "status-hiatus";
+
+break;
+
+case "CANCELLED":
+
+statusClass = "status-cancelled";
+
+break;
+
+}
+
+infoStatus.innerHTML =
+
+`<span class="statusBadge ${statusClass}">
+
+${status}
+
+</span>`;
+
+infoFormat.innerText =
+anime.format || "Unknown";
+
+infoDuration.innerText =
+anime.duration
+? anime.duration + " min"
+: "Unknown";
 
 }catch(e){
 
