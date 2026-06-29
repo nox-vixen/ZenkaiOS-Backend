@@ -81,6 +81,7 @@ const synopsis =
 anime.description || "No synopsis available.";
 
 synopsisText.innerHTML = synopsis;
+synopsisText.classList.add("collapsed");
 
 const readMore =
 document.getElementById("readMore");
@@ -155,6 +156,8 @@ readMoreButton.addEventListener("click",()=>{
 
         readMoreButton.innerText = "Read Less";
 
+        synopsisText.classList.remove("collapsed");
+
         synopsisExpanded = true;
 
     }else{
@@ -162,6 +165,8 @@ readMoreButton.addEventListener("click",()=>{
         synopsisText.style.maxHeight = "145px";
 
         readMoreButton.innerText = "Read More";
+
+        synopsisText.classList.add("collapsed");
 
         synopsisExpanded = false;
 

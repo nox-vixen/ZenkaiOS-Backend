@@ -122,13 +122,13 @@ pointer-events:none;
 TOP BUTTONS
 =========================*/
 
-#backButton,
+#backButton{
 
-#shareButton{
-
-position:absolute;
+position:fixed;
 
 top:18px;
+
+left:18px;
 
 width:46px;
 
@@ -138,29 +138,91 @@ border:none;
 
 border-radius:50%;
 
-background:rgba(0,0,0,.45);
+background:rgba(20,20,20,.58);
 
-backdrop-filter:blur(16px);
+backdrop-filter:blur(18px);
 
-color:white;
+-webkit-backdrop-filter:blur(18px);
+
+border:1px solid rgba(255,255,255,.08);
+
+color:#fff;
 
 font-size:18px;
 
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
 cursor:pointer;
 
-z-index:20;
+z-index:1000;
 
-}
+transition:.25s;
 
-#backButton{
-
-left:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.35);
 
 }
 
 #shareButton{
 
+position:fixed;
+
+top:18px;
+
 right:18px;
+
+width:46px;
+
+height:46px;
+
+border:none;
+
+border-radius:50%;
+
+background:rgba(20,20,20,.58);
+
+backdrop-filter:blur(18px);
+
+-webkit-backdrop-filter:blur(18px);
+
+border:1px solid rgba(255,255,255,.08);
+
+color:#fff;
+
+font-size:18px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+cursor:pointer;
+
+z-index:1000;
+
+transition:.25s;
+
+box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+}
+
+#backButton:hover,
+#shareButton:hover{
+
+background:#a855f7;
+
+transform:translateY(-2px);
+
+}
+
+#backButton:active,
+#shareButton:active{
+
+transform:scale(.94);
 
 }
 
@@ -528,6 +590,8 @@ letter-spacing:.3px;
 
 #synopsisText{
 
+position:relative;
+
 font-size:15px;
 
 line-height:1.9;
@@ -542,6 +606,29 @@ transition:max-height .45s ease;
 
 }
 
+#synopsisText.collapsed::after{
+
+content:"...";
+
+position:absolute;
+
+bottom:0;
+
+right:0;
+
+padding-left:30px;
+
+background:linear-gradient(
+90deg,
+rgba(6,6,6,0),
+rgba(6,6,6,1) 45%
+);
+
+color:#ffffff;
+
+font-weight:700;
+
+}
 
 #readMore{
 
