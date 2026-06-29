@@ -585,47 +585,6 @@ window.location.href="/watch?id="+id;
 // Bottom Navigation
 // ==========================
 
-document.getElementById("bottomNav").innerHTML = `
-
-<div class="nav-item active">
-
-<i class="fa-solid fa-house"></i>
-
-<span>Home</span>
-
-</div>
-
-<div class="nav-item">
-
-<i class="fa-solid fa-tv"></i>
-
-<span>Anime</span>
-
-</div>
-
-<div class="center-nav">
-
-<i class="fa-solid fa-play"></i>
-
-</div>
-
-<div class="nav-item">
-
-<i class="fa-solid fa-bookmark"></i>
-
-<span>List</span>
-
-</div>
-
-<div class="nav-item">
-
-<i class="fa-solid fa-user"></i>
-
-<span>Profile</span>
-
-</div>
-
-`;
 // ==========================
 // DOCK ANIMATION
 // ==========================
