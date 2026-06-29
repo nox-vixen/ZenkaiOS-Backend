@@ -574,7 +574,7 @@ resumeHeroSlider();
 
 function openAnime(id){
 
-window.location.href="/watch?id="+id;
+window.location.href="/details/"+id;
 
 }
 

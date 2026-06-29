@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width,initial-scale=1">
+
+<title>ZenkaiOS</title>
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link
+rel="stylesheet"
+href="{{ url_for('static', filename='css/details.css') }}">
+
+</head>
+
+<body>
+
+<!-- Hero Banner -->
+
+<section id="heroBanner">
+
+<img id="bannerImage">
+
+<div id="bannerGradient"></div>
+
+<button id="backButton">
+
+<i class="fa-solid fa-arrow-left"></i>
+
+</button>
+
+<button id="shareButton">
+
+<i class="fa-solid fa-share-nodes"></i>
+
+</button>
+
+</section>
+
+<!-- Floating Poster -->
+
+<section id="posterSection">
+
+<img id="posterImage">
+
+<div id="titleSection">
+
+<h1 id="animeTitle"></h1>
+
+<h3 id="animeJapanese"></h3>
+
+<div id="animeMeta"></div>
+
+</div>
+
+</section>
+
+<!-- Buttons -->
+
+<section id="actionButtons">
+
+<button id="watchNow">
+
+<i class="fa-solid fa-play"></i>
+
+Watch Now
+
+</button>
+
+<button id="myList">
+
+<i class="fa-solid fa-plus"></i>
+
+My List
+
+</button>
+
+</section>
+
+<!-- Genres -->
+
+<section id="genreSection">
+
+</section>
+
+<!-- Synopsis -->
+
+<section id="synopsisSection">
+
+<h2>Synopsis</h2>
+
+<p id="synopsisText"></p>
+
+<button id="readMore">
+
+Read More
+
+</button>
+
+</section>
+
+<!-- Information -->
+
+<section id="infoSection">
+
+</section>
+
+<!-- Trailer -->
+
+<section id="trailerSection">
+
+</section>
+
+<!-- Characters -->
+
+<section id="characterSection">
+
+</section>
+
+<!-- Related -->
+
+<section id="relatedSection">
+
+</section>
+
+<!-- Recommendation -->
+
+<section id="recommendationSection">
+
+</section>
+
+<script
+src="{{ url_for('static', filename='js/details.js') }}">
+</script>
+
+</body>
+
+</html>
