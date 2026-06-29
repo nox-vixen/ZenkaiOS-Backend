@@ -77,23 +77,18 @@ ${anime.episodes || "?"} Episodes
 ${anime.year || ""}
 `;
 
-synopsisText.innerText=
-
-anime.synopsis ||
-
-"No synopsis available.";
+synopsisText.innerHTML =
+anime.description || "No synopsis available.";
 
 genreSection.innerHTML="";
 
-anime.genres.forEach(g=>{
+anime.genres.forEach(g => {
 
-genreSection.innerHTML+=
-
-`
+genreSection.innerHTML += `
 
 <div class="genre">
 
-${g.name}
+${g}
 
 </div>
 

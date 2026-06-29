@@ -78,7 +78,10 @@ def get_anime(sort, limit=10):
 
             "title": media["title"]["english"] or media["title"]["romaji"],
 
-            "description": media.get("description") or "",
+            "description": (
+    media.get("description", "")
+    .replace("<br>", "<br><br>")
+),
 
             "coverImage": media["coverImage"]["extraLarge"],
 
