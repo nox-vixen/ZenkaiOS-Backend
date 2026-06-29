@@ -626,3 +626,106 @@ document.getElementById("bottomNav").innerHTML = `
 </div>
 
 `;
+// ==========================
+// DOCK ANIMATION
+// ==========================
+
+const dockItems =
+document.querySelectorAll(".dock-item");
+
+const dockIndicator =
+document.querySelector(".dock-indicator");
+
+dockItems.forEach(item=>{
+
+item.addEventListener("click",()=>{
+
+dockItems.forEach(i=>i.classList.remove("active"));
+
+item.classList.add("active");
+
+const x=item.offsetLeft;
+
+dockIndicator.animate(
+
+[
+{
+
+transform:
+
+dockIndicator.style.transform ||
+
+"translateX(0px)"
+
+},
+
+{
+
+transform:
+
+`translateX(${x}px)`
+
+}
+
+],
+
+{
+
+duration:450,
+
+easing:
+
+"cubic-bezier(.22,1,.36,1)",
+
+fill:"forwards"
+
+}
+
+);
+
+dockIndicator.style.transform=
+
+`translateX(${x}px)`;
+
+});
+
+});
+// ==========================
+// PREMIUM RIPPLE
+// ==========================
+
+document.querySelectorAll(".dock-item,.dock-center")
+
+.forEach(button=>{
+
+button.addEventListener("click",(e)=>{
+
+const ripple=
+
+document.createElement("span");
+
+ripple.className="dock-ripple";
+
+const rect=
+
+button.getBoundingClientRect();
+
+ripple.style.left=
+
+(e.clientX-rect.left)+"px";
+
+ripple.style.top=
+
+(e.clientY-rect.top)+"px";
+
+button.appendChild(ripple);
+
+setTimeout(()=>{
+
+ripple.remove();
+
+},550);
+
+});
+
+});

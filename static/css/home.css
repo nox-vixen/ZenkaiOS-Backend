@@ -2122,3 +2122,129 @@ translateY(-24px)
 scale(1.05);
 
 }
+.dock-indicator{
+
+position:absolute;
+
+top:12px;
+
+left:18px;
+
+width:62px;
+
+height:52px;
+
+border-radius:20px;
+
+background:rgba(168,85,247,.18);
+
+border:1px solid rgba(168,85,247,.28);
+
+box-shadow:
+
+0 0 18px rgba(168,85,247,.35);
+
+transition:
+
+transform .45s cubic-bezier(.22,1,.36,1);
+
+pointer-events:none;
+
+z-index:0;
+
+}
+
+.dock-item{
+
+position:relative;
+
+z-index:2;
+
+}
+/*==================================
+CENTER BUTTON ANIMATION
+==================================*/
+
+.dock-center{
+
+animation:centerBreath 2.8s ease-in-out infinite;
+
+overflow:hidden;
+
+}
+
+@keyframes centerBreath{
+
+0%{
+
+box-shadow:
+0 10px 30px rgba(168,85,247,.35);
+
+transform:
+translateX(-50%)
+translateY(-20px)
+scale(1);
+
+}
+
+50%{
+
+box-shadow:
+0 14px 40px rgba(168,85,247,.65);
+
+transform:
+translateX(-50%)
+translateY(-22px)
+scale(1.06);
+
+}
+
+100%{
+
+box-shadow:
+0 10px 30px rgba(168,85,247,.35);
+
+transform:
+translateX(-50%)
+translateY(-20px)
+scale(1);
+
+}
+
+}
+
+/*==================================
+RIPPLE
+==================================*/
+
+.dock-ripple{
+
+position:absolute;
+
+width:10px;
+
+height:10px;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.35);
+
+transform:scale(0);
+
+animation:ripple .55s ease-out;
+
+pointer-events:none;
+
+}
+
+@keyframes ripple{
+
+to{
+
+transform:scale(12);
+
+opacity:0;
+
+}
+
+}
