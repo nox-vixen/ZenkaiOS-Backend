@@ -47,17 +47,17 @@ async function loadAnime(){
 
 try{
 
-const res=
-
-await fetch(
-
+const res = await fetch(
 `https://api.jikan.moe/v4/anime/${animeId}/full`
-
 );
 
-const json=
+console.log("Status:", res.status);
 
-await res.json();
+if(!res.ok){
+throw new Error("HTTP " + res.status);
+}
+
+const json = await res.json();
 
 const anime=json.data;
 
@@ -129,11 +129,11 @@ ${g.name}
 
 }catch(e){
 
-animeTitle.innerText=
+animeTitle.innerText = "Failed to load anime.";
 
-"Failed to load anime.";
+console.error("Anime fetch failed:", e);
 
-console.log(e);
+alert("Anime fetch failed:\n" + e);
 
 }
 
