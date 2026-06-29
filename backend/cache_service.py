@@ -25,6 +25,8 @@ class CacheService:
 
         file = CACHE_DIR / f"{key}.json"
 
+        print("Saving cache to:", file)
+
         with open(file, "w", encoding="utf-8") as f:
             json.dump(
                 data,

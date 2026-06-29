@@ -66,6 +66,8 @@ class MovieBoxService:
 
         cache_service.save(key, data)
 
+        print("[CACHE SAVED]", key)
+
         return data
 
 moviebox_service = MovieBoxService()
