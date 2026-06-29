@@ -77,8 +77,23 @@ ${anime.episodes || "?"} Episodes
 ${anime.year || ""}
 `;
 
-synopsisText.innerHTML =
+const synopsis =
 anime.description || "No synopsis available.";
+
+synopsisText.innerHTML = synopsis;
+
+const readMore =
+document.getElementById("readMore");
+
+if(synopsis.replace(/<[^>]*>/g,"").length < 380){
+
+    readMore.style.display = "none";
+
+}else{
+
+    readMore.style.display = "inline-block";
+
+}
 
 genreSection.innerHTML="";
 
@@ -123,25 +138,32 @@ document.getElementById("posterSection");
 
 let ticking = false;
 
-window.addEventListener("scroll", () => {
+// ===================================
+// READ MORE / READ LESS
+// ===================================
 
-    if (!ticking) {
+const readMoreButton =
+document.getElementById("readMore");
 
-        window.requestAnimationFrame(() => {
+let synopsisExpanded = false;
 
-            const y = window.scrollY;
+readMoreButton.addEventListener("click",()=>{
 
-            bannerImage.style.transform =
-                `translateY(${y * 0.18}px) scale(1.08)`;
+    if(!synopsisExpanded){
 
-            posterSection.style.transform =
-                `translateY(${-Math.min(y * 0.18, 35)}px)`;
+        synopsisText.style.maxHeight = "3000px";
 
-            ticking = false;
+        readMoreButton.innerText = "Read Less";
 
-        });
+        synopsisExpanded = true;
 
-        ticking = true;
+    }else{
+
+        synopsisText.style.maxHeight = "145px";
+
+        readMoreButton.innerText = "Read More";
+
+        synopsisExpanded = false;
 
     }
 
