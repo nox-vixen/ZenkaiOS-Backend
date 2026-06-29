@@ -21,3 +21,23 @@ def moviebox_search(title):
         "success": True,
         "data": result
     })
+
+from pathlib import Path
+
+
+@stream_bp.route("/debug/cache")
+def debug_cache():
+
+    folder = Path("cache/moviebox")
+
+    return jsonify({
+
+        "files": [
+
+            file.name
+
+            for file in folder.glob("*.json")
+
+        ]
+
+    })
