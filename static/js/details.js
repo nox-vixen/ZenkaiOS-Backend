@@ -33,6 +33,15 @@ document.getElementById("genreSection");
 const backButton =
 document.getElementById("backButton");
 
+const trailerSection =
+document.getElementById("trailerSection");
+
+const trailerCard =
+document.getElementById("trailerCard");
+
+const trailerImage =
+document.getElementById("trailerImage");
+
 // ===================================
 
 backButton.onclick=()=>history.back();
@@ -111,6 +120,33 @@ ${g}
 `;
 
 });
+
+// ===================================
+// TRAILER
+// ===================================
+
+if(anime.trailer && anime.trailer.id){
+
+    trailerImage.src =
+    `https://img.youtube.com/vi/${anime.trailer.id}/maxresdefault.jpg`;
+
+    trailerCard.onclick = () => {
+
+        window.open(
+
+            `https://www.youtube.com/watch?v=${anime.trailer.id}`,
+
+            "_blank"
+
+        );
+
+    };
+
+}else{
+
+    trailerSection.style.display = "none";
+
+}
 
 }catch(e){
 
