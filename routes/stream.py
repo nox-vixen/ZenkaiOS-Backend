@@ -41,3 +41,31 @@ def debug_cache():
         ]
 
     })
+
+
+from moviebox_api.v1 import TVSeriesDetails
+
+@stream_bp.route("/debug/details/<subject_id>")
+def debug_details(subject_id):
+
+    import asyncio
+
+    from backend.session import get_session
+
+    session = get_session()
+
+    details = TVSeriesDetails(
+
+        session=session,
+
+        subject_id=subject_id
+
+    )
+
+    result = asyncio.run(
+
+        details.get_content_model()
+
+    )
+
+    return result.model_dump_json()
