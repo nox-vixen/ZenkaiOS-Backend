@@ -47,59 +47,33 @@ async function loadAnime(){
 
 try{
 
-const res = await fetch(
-`https://api.jikan.moe/v4/anime/${animeId}/full`
-);
+const res = await fetch(`/api/details/${animeId}`);
 
-console.log("Status:", res.status);
-
-if(!res.ok){
-throw new Error("HTTP " + res.status);
+if (!res.ok) {
+    throw new Error("HTTP " + res.status);
 }
 
-const json = await res.json();
+const anime = await res.json();
 
-const anime=json.data;
+bannerImage.src = anime.bannerImage || anime.coverImage;
 
-bannerImage.src=
+// Keep the banner if available; otherwise use the cover image.
 
-anime.images.jpg.large_image_url;
-
-if(anime.trailer.image_url){
-
-bannerImage.src=
-
-anime.trailer.image_url;
-
-}
-
-posterImage.src=
-
-anime.images.jpg.large_image_url;
+posterImage.src = anime.coverImage;
 
 animeTitle.innerText=
 
 anime.title;
 
-animeJapanese.innerText=
+animeJapanese.innerText = "";
 
-anime.title_japanese || "";
-
-animeMeta.innerHTML=
-
-`
-⭐ ${anime.score || "N/A"}
-
+animeMeta.innerHTML = `
+⭐ ${anime.rating || "N/A"}
 •
-
-${anime.status}
-
+${anime.status || ""}
 •
-
 ${anime.episodes || "?"} Episodes
-
 •
-
 ${anime.year || ""}
 `;
 
