@@ -2000,15 +2000,15 @@ bottom:18px;
 transform:translateX(-50%);
 
 width:calc(100% - 24px);
-max-width:460px;
+max-width:420px;
 
-height:74px;
+height:66px;
 
 display:flex;
 align-items:center;
 justify-content:space-evenly;
 
-padding:0 18px;
+padding:0 12px;
 
 background:rgba(18,18,18,.78);
 
@@ -2054,7 +2054,7 @@ user-select:none;
 
 .dock-item i{
 
-font-size:24px;
+font-size:21px;
 
 transition:.30s;
 
@@ -2062,7 +2062,7 @@ transition:.30s;
 
 .dock-item span{
 
-font-size:12px;
+font-size:10px;
 
 font-weight:600;
 
@@ -2088,10 +2088,10 @@ transform:translateY(-2px);
 
 .dock-center{
 
-width:74px;
-height:74px;
+width:62px;
+height:62px;
 
-margin-top:-42px;
+margin-top:-34px;
 
 display:flex;
 
@@ -2112,7 +2112,7 @@ box-shadow:
 
 color:white;
 
-font-size:30px;
+font-size:24px;
 
 cursor:pointer;
 
