@@ -104,8 +104,8 @@ def debug_download_methods():
 # TV Details
 # ============================================================
 
-@stream_bp.route("/debug/episodes/<path:title>")
-def debug_episodes(title):
+@stream_bp.route("/debug/download/<path:title>/<int:season>/<int:episode>")
+def debug_download(title, season, episode):
 
     session = get_session()
 
@@ -117,28 +117,26 @@ def debug_episodes(title):
         per_page=1
     )
 
-    result = asyncio.run(
-        search.get_content_model()
-    )
+    result = asyncio.run(search.get_content_model())
 
     if not result.items:
-        return jsonify({
-            "error": "Anime not found"
-        }), 404
+        return jsonify({"error": "Not found"}), 404
 
     item = result.items[0]
 
-    details = TVSeriesDetails(
-        item,
-        session
+    download = DownloadableTVSeriesFilesDetail(
+        session=session,
+        item=item
     )
 
     data = asyncio.run(
-        details.get_content_model()
+        download.get_content_model(
+            season=season,
+            episode=episode
+        )
     )
 
     return data.model_dump_json()
-
 
 # ============================================================
 # Download / Episode Resources
