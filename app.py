@@ -6,6 +6,7 @@ from routes.home import home_bp
 from routes.search import search_bp
 from routes.watch import watch_bp
 from routes.details import details_bp
+from routes.stream import stream_bp
 
 from backend.anilist import get_trending_anime
 from backend.cache_builder import build_cache
@@ -18,6 +19,7 @@ app.register_blueprint(home_bp)
 app.register_blueprint(search_bp)
 app.register_blueprint(watch_bp)
 app.register_blueprint(details_bp)
+app.register_blueprint(stream_bp)
 
 @app.route("/")
 def index():
