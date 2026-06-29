@@ -22,7 +22,10 @@ def moviebox_search(title):
         "data": result
     })
 
+
 from pathlib import Path
+import inspect
+from moviebox_api.v1 import TVSeriesDetails
 
 
 @stream_bp.route("/debug/cache")
@@ -31,41 +34,20 @@ def debug_cache():
     folder = Path("cache/moviebox")
 
     return jsonify({
-
         "files": [
-
             file.name
-
             for file in folder.glob("*.json")
-
         ]
-
     })
 
 
-from moviebox_api.v1 import TVSeriesDetails
+@stream_bp.route("/debug/tv_signature")
+def tv_signature():
 
-@stream_bp.route("/debug/details/<subject_id>")
-def debug_details(subject_id):
-
-    import asyncio
-
-    from backend.session import get_session
-
-    session = get_session()
-
-    details = TVSeriesDetails(
-
-        session=session,
-
-        subject_id=subject_id
-
-    )
-
-    result = asyncio.run(
-
-        details.get_content_model()
-
-    )
-
-    return result.model_dump_json()
+    return jsonify({
+        "signature": str(
+            inspect.signature(
+                TVSeriesDetails
+            )
+        )
+    })
