@@ -111,3 +111,17 @@ def debug_download_signature():
             inspect.signature(DownloadableTVSeriesFilesDetail)
         )
     })
+
+
+from moviebox_api.v1 import DownloadableTVSeriesFilesDetail
+import inspect
+
+@stream_bp.route("/debug/download_methods")
+def debug_download_methods():
+    return jsonify({
+        "methods": [
+            name
+            for name, value in inspect.getmembers(DownloadableTVSeriesFilesDetail)
+            if callable(value) and not name.startswith("_")
+        ]
+    })
