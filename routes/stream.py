@@ -90,3 +90,12 @@ def debug_episodes(title):
     )
 
     return data.model_dump_json()
+
+
+import moviebox_api.v1 as mb
+
+@stream_bp.route("/debug/classes")
+def debug_classes():
+    return {
+        "classes": dir(mb)
+    }
