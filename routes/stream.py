@@ -104,39 +104,6 @@ def debug_download_methods():
 # TV Details
 # ============================================================
 
-@stream_bp.route("/debug/download/<path:title>/<int:season>/<int:episode>")
-def debug_download(title, season, episode):
-
-    session = get_session()
-
-    search = Search(
-        session=session,
-        query=title,
-        subject_type=SubjectType.ALL,
-        page=1,
-        per_page=1
-    )
-
-    result = asyncio.run(search.get_content_model())
-
-    if not result.items:
-        return jsonify({"error": "Not found"}), 404
-
-    item = result.items[0]
-
-    download = DownloadableTVSeriesFilesDetail(
-        session=session,
-        item=item
-    )
-
-    data = asyncio.run(
-        download.get_content_model(
-            season=season,
-            episode=episode
-        )
-    )
-
-    return data.model_dump_json()
 
 # ============================================================
 # Download / Episode Resources
