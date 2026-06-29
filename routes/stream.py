@@ -6,17 +6,14 @@ stream_bp = Blueprint("stream", __name__)
 def debug_moviebox():
 
     from moviebox_api.v1 import Search
+    import inspect
 
     return jsonify({
 
-        "methods": [
+        "signature": str(
 
-            method
+            inspect.signature(Search)
 
-            for method in dir(Search)
-
-            if not method.startswith("_")
-
-        ]
+        )
 
     })
