@@ -10,4 +10,8 @@ def debug_moviebox():
 
     result = moviebox_service.search("One Piece")
 
-    return jsonify(result.model_dump())
+    return jsonify(
+    result.model_dump(
+        mode="json"
+    )
+)
